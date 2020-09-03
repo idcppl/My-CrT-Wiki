@@ -1,36 +1,24 @@
-# BlockBreakEvent
+# CropGrowPostEvent
 
 ## import
-`import crafttweaker.event.BlockBreakEvent;`
+`import crafttweaker.event.CropGrowPostEvent;`
 
 ## Extended from
-IEventCancelable / IBlockEvent > IEventPositionable
+IBlockEvent > IEventPositionable
 
-## .isPlayer
-> Checks if the block broken by a player.
+## .originalBlockState
+> Gets the original block state of the crop.
 >
-> **Type:** Getter  
-> **Returns:** bool
+> **Type:** Getter
+> **Returns:** IBlockState
 
-## .player
-> Gets the player who broke the block.
+## .originalBlock
+> Gets the original block of the crop.
 >
-> **Type:** Getter  
-> **Returns:** IPlayer
-
-## .experience
-> Gets/Sets the experience dropped from the block.
->
-> **Type:** Getter/Setter  
-> **Returns:** int 
+> **Type:** Getter
+> **Returns:** IBlock
 
 # By proxy methods
-
-## IEventCancelable
-> | Getter/Method   | Setter/Method     | Type                  |
-> |-----------------|-------------------|-----------------------|
-> | canceled        | canceled          | bool                  |
-> | cencel()        |                   | void                  |
 
 ## IBlockEvent
 > | Getter/Method   | Setter/Method     | Type                  |

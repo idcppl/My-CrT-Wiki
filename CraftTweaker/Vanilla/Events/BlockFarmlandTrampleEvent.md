@@ -4,7 +4,7 @@
 `import crafttweaker.event.BlockFarmlandTrampleEvent;`
 
 ## Extended from
-IEventCancable / IBlockEvent > IEventPositionable
+IEventCancelable / IBlockEvent > IEventPositionable
 
 ## .entity
 >
@@ -20,7 +20,7 @@ IEventCancable / IBlockEvent > IEventPositionable
 
 # By proxy methods
 
-## IEventCancable
+## IEventCancelable
 > | Getter/Method   | Setter/Method     | Type                  |
 > |-----------------|-------------------|-----------------------|
 > | canceled        | canceled          | bool                  |

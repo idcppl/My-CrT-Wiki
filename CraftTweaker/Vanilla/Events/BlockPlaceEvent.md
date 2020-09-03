@@ -1,28 +1,34 @@
-# BlockBreakEvent
+# BlockPlaceEvent
 
 ## import
-`import crafttweaker.event.BlockBreakEvent;`
+`import crafttweaker.event.BlockPlaceEvent;`
 
 ## Extended from
 IEventCancelable / IBlockEvent > IEventPositionable
 
-## .isPlayer
-> Checks if the block broken by a player.
->
-> **Type:** Getter  
-> **Returns:** bool
-
 ## .player
-> Gets the player who broke the block.
+> Gets the player who placed the block.
 >
 > **Type:** Getter  
 > **Returns:** IPlayer
 
-## .experience
-> Gets/Sets the experience dropped from the block.
+## .current
+> Gets the blockstate of the block that is being placed.
 >
-> **Type:** Getter/Setter  
-> **Returns:** int 
+> **Type:** Getter  
+> **Returns:** IBlockState
+
+## .placedAgainst
+> Gets the blockstate of the block that you're placing against.
+>
+> **Type:** Getter  
+> **Returns:** IBlockState
+
+## .hand
+> Gets the block in the player hand.
+>
+> **Type:** Getter  
+> **Returns:** string
 
 # By proxy methods
 

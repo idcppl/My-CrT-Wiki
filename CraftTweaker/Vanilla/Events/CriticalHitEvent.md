@@ -1,31 +1,44 @@
-# AnimalTameEvent
+# CriticalHitEvent
 
 ## import
-`import crafttweaker.event.AnimalTameEvent;`
+`import crafttweaker.event.CriticalHitEvent;`
 
 ## Extended from
+IEventHasResult / IPlayerEvent > ILivingEvent > IEntityEvent
 
-IEventCancelable / IPlayerEvent > ILivingEvent > IEntityEvent
-
-## .animal
-> Gets the animal that was tamed.
+## .target
+> Gets the target of the critical hit.
 >
 > **Type:** Getter  
-> **Returns:** IEntityAnimal
+> **Returns:** IEntity
 
-## .tamer
-> Gets the player.
+## .damageModifier
+> Gets/Sets the damage modifier for the critical hit.
+>
+> **Type:** Getter/Setter  
+> **Returns:** float
+
+## .oldDamageModifier
+> Gets the old damage modifier for the critical hit.
 >
 > **Type:** Getter  
-> **Returns:** IPlayer
+> **Returns:** float
+
+## .isVanillaCrit
+> Checks if the critical hit is from jumping and hitting the target.
+>
+> **Type:** Getter  
+> **Returns:** bool
 
 # By proxy methods
 
-## IEventCancelable
+## IEventHasResult
 > | Getter/Method   | Setter/Method     | Type                  |
 > |-----------------|-------------------|-----------------------|
-> | canceled        | canceled          | bool                  |
-> | cencel()        |                   | void                  |
+> | result          |                   | string                |
+> |                 | deny              | void                  |
+> |                 | default           | void                  |
+> |                 | allow             | void                  |
 
 ## IPlayerEvent
 > | Getter/Method   | Setter/Method     | Type                  |

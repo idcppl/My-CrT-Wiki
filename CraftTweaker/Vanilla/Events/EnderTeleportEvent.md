@@ -1,23 +1,34 @@
-# AnimalTameEvent
+# EnderTeleportEvent
 
-## import
-`import crafttweaker.event.AnimalTameEvent;`
+## import 
+`import crafttweaker.event.EnderTeleportEvent;`
 
 ## Extended from
+IEventCancelable / ILivingEvent > IEntity
 
-IEventCancelable / IPlayerEvent > ILivingEvent > IEntityEvent
-
-## .animal
-> Gets the animal that was tamed.
+## .targetX
+> Gets/Sets the X position of the enderman/shulker/ender pearl destination.
 >
-> **Type:** Getter  
-> **Returns:** IEntityAnimal
+> **Type:** Getter/Setter  
+> **Returns:** double
 
-## .tamer
-> Gets the player.
+## .targetY
+> Gets/Sets the Y position of the enderman/shulker/ender pearl destination.
 >
-> **Type:** Getter  
-> **Returns:** IPlayer
+> **Type:** Getter/Setter  
+> **Returns:** double
+
+## .targetZ
+> Gets/Sets the Z position of the enderman/shulker/ender pearl destination.
+>
+> **Type:** Getter/Setter  
+> **Returns:** double
+
+## .attackDamage
+> Gets/Sets the damage taken from throwing an ender pearl.
+>
+> **Type:** Getter/Setter  
+> **Returns:** float
 
 # By proxy methods
 
@@ -26,11 +37,6 @@ IEventCancelable / IPlayerEvent > ILivingEvent > IEntityEvent
 > |-----------------|-------------------|-----------------------|
 > | canceled        | canceled          | bool                  |
 > | cencel()        |                   | void                  |
-
-## IPlayerEvent
-> | Getter/Method   | Setter/Method     | Type                  |
-> |-----------------|-------------------|-----------------------|
-> | player          |                   | IPlayer               |
 
 ## ILivingEvent
 > | Getter/Method   | Setter/Method     | Type                  |
