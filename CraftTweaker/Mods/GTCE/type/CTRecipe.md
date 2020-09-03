@@ -7,7 +7,7 @@
 > Gets all the input items in the recipe. Non-consumables will be shown with the amount of 0.
 >
 > **Type:** Getter  
-> **Returns:** InputIngredient[]
+> **Returns:** [InputIngredient](/CraftTweaker/Mods/GTCE/type/InputIngredient.md)[]
 
 ## .outputs
 > Gets all the output items that aren't random in the recipe.
