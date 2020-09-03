@@ -3,66 +3,78 @@
 ## import
 `import mods.gregtech.recipe.Recipe`
 
-# .inputs
+## .inputs
 > Gets all the input items in the recipe. Non-consumables will be shown with the amount of 0.
 >
+> **Type:** Getter  
 > **Returns:** InputIngredient[]
 
-# .outputs
+## .outputs
 > Gets all the output items that aren't random in the recipe.
 >
+> **Type:** Getter  
 > **Returns:** IItemStack[]
 
-# .chancedOutputs
+## .chancedOutputs
 > Gets all the random output items in the recipe.
 >
-> **Returns:** ChancedEntry[]
+> **Type:** Getter  
+> **Returns:** [ChancedEntry](/CraftTweaker/Mods/GTCE/type/ChancedEntry.md)[]
 
-# .fluidInputs
+## .fluidInputs
 > Gets all the fluid inputs in the recipe.
 >
+> **Type:** Getter  
 > **Returns:** ILiquidStack[]
 
-# .hasInputFluid
+## .hasInputFluid
 > Tells if the recipe holds an `ILiquidStack`.
 >
+> **Type:** Method  
 > **Returns:** bool
 
-# .fluidOutputs
+## .fluidOutputs
 > Gets all the fluid outputs in the recipe.
 >
+> **Type:** Getter  
 > **Returns:** ILiquidStack[]
 
-# .duration
+## .duration
 > Gets the duration of the recipe in ticks.
 >
+> **Type:** Getter  
 > **Returns:** int
 
-# .EUt
+## .EUt
 > Gets the amount of energy used per tick in the recipe.
 >
+> **Type:** Getter  
 > **Returns:** int
 
-# .hidden
+## .hidden
 > Tells if the recipe is hidden from JEI.
 >
+> **Type:** Getter  
 > **Returns:** bool
 
-# .propertyKeys
+## .propertyKeys
 > Tells which property's this recipe holds.
 >
+> **Type:** Getter  
 > **Returns:** string
 
-# .getProperty(key)
+## .getProperty(key)
 > You can do absolutely nothing with this in CraftTweaker. Checkmate Athiest.
 >
+> **Type:** Method  
 > **Returns:** Object
 > | Parameters  | Type      | Use                   |
 > |-------------|-----------|-----------------------|
 > | key         | string    | name of the property  |
 
 
-# .remove()
+## .remove()
 > Will remove the recipe from the `RecipeMap`.
 >
+> **Type:** Method  
 > **Returns:** bool

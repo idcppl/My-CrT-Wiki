@@ -3,39 +3,41 @@
 ## import
 `import crafttweaker.event.AnimalTameEvent;`
 
-# Chains down to
+## Extended From
 
 IEventCancable / IPlayerEvent > ILivingEvent > IEntityEvent
 
-# .animal
+## .animal
 > Gets the animal that was tamed.
 >
+> **Type:** Getter  
 > **Returns:** IEntityAnimal
 
-# .tamer
+## .tamer
 > Gets the player.
 >
+> **Type:** Getter  
 > **Returns:** IPlayer
 
 # By proxy methods
 
-# IEventCancable
+## IEventCancable
 > | Getter/Method   | Setter/Method     | Type                  |
 > |-----------------|-------------------|-----------------------|
 > | canceled        | canceled          | bool                  |
 > | cencel()        |                   | void                  |
 
-# IPlayerEvent
+## IPlayerEvent
 > | Getter/Method   | Setter/Method     | Type                  |
 > |-----------------|-------------------|-----------------------|
 > | player          |                   | IPlayer               |
 
-# ILivingEvent
+## ILivingEvent
 > | Getter/Method   | Setter/Method     | Type                  |
 > |-----------------|-------------------|-----------------------|
 > | entityLivingBase|                   | IEntityLivingBase     |
 
-# IEntityEvent
+## IEntityEvent
 > | Getter/Method   | Setter/Method     | Type                  |
 > |-----------------|-------------------|-----------------------|
 > | entity          |                   | IEntity               |

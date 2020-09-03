@@ -1,48 +1,48 @@
 # RecipeMap
 RecipeMap's is a powerful tool that is used to store recipes for GTCE. You can add, remove, and extract data from recipes.
 
-# .getRecipeMaps()
-> Holds all the `RecipeMap` within `RecipeMaps`.
+## .getRecipeMaps()
+> Holds all the [RecipeMap](/CraftTweaker/Mods/GTCE/type/RecipeMap.md) within `RecipeMaps`.
 >
-> **Returns:** RecipeMap[]
+> **Returns:** [RecipeMap](/CraftTweaker/Mods/GTCE/type/RecipeMap.md)[]
 
-# .getByName(unlocalizedName)
+## .getByName(unlocalizedName)
 > Holds a machine `RecipeMap` by using the unlocalized machine name in the method.
 >
-> **Returns:** RecipeMap
-> | Parameters  		| types     | Uses                      |
-> |---------------------|-----------|---------------------------|
-> | unlocalizedName	    | RecipeMap | For creating recipes		|
+> **Returns:** [RecipeMap](/CraftTweaker/Mods/GTCE/type/RecipeMap.md)
+> | Parameters  		| types                                                     | Uses                      |
+> |---------------------|-----------------------------------------------------------|---------------------------|
+> | unlocalizedName	    | [RecipeMap](/CraftTweaker/Mods/GTCE/type/RecipeMap.md)    | For creating recipes		|
 
 # Methods to use on a RecipeMap
 These methods should be used after you've called one of the above methods.
 
-# .findRecipe(maxVoltage, itemInputs, fluidInputs)
+## .findRecipe(maxVoltage, itemInputs, fluidInputs)
 > Finds a recipe that fits the parameters.
 >
-> **Returns:** CTRecipe
+> **Returns:** [CTRecipe](/CraftTweaker/Mods/GTCE/type/CTRecipe.md)
 > | Parameters          | types         | Uses                                  |
 > |---------------------|---------------|---------------------------------------|
 > | maxVoltage          | int           | a voltage above the recipe required.  |
 > | itemInputs          | IItemStack[]  | Nullable. Item inputs.                |
 > | fluidInputs         | ILiquidStack[]| Nullable. fluid inputs.               |
 
-# .recipes
-> All the recipes for that `RecipeMap`.
+## .recipes
+> All the recipes for that [RecipeMap](/CraftTweaker/Mods/GTCE/type/RecipeMap.md).
 >
-> **Returns:** CTRecipe[]
+> **Returns:** [CTRecipe](/CraftTweaker/Mods/GTCE/type/CTRecipe.md)[]
 
-# .localizedName
-> The localized name of the `RecipeMap`.
->
-> **Returns:** string
-
-# .unlocalizedName
-> The unlocalized name of the `RecipeMap`.
+## .localizedName
+> The localized name of the [RecipeMap](/CraftTweaker/Mods/GTCE/type/RecipeMap.md).
 >
 > **Returns:** string
 
-# .recipeBuilder()
+## .unlocalizedName
+> The unlocalized name of the [RecipeMap](/CraftTweaker/Mods/GTCE/type/RecipeMap.md).
+>
+> **Returns:** string
+
+## .recipeBuilder()
 > The method to begin building a recipe.
 >
 > **Returns:** CTRecipeBuilder  

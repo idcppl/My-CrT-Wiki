@@ -4,17 +4,20 @@ ChancedEntry is an item output that has a chance of being outputted. The formula
 ## import
 `import mods.gregtech.recipe.ChancedEntry;`
 
-# .output
->Holds the output item.
+## .output
+> Gets the output item.
 >
->**Returns:** IItemStack 
+> **Type:** Getter  
+> **Returns:** IItemStack 
 
-# .chance
->Holds the initial chance for the output item.
+## .chance
+> Gets the initial chance for the output item.
 >
->**Returns:** int
+> **Type:** Getter  
+> **Returns:** int
 
-# .boostPerTier
->Holds the boosted chance of getting an output item based on tiers.
+## .boostPerTier
+> Gets the boosted chance of getting an output item based on tiers.
 >
->**Returns:** int
+> **Type:** Getter  
+> **Returns:** int
