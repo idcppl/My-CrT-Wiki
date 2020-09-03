@@ -1,28 +1,22 @@
-# BlockBreakEvent
+# BlockFarmlandTrampleEvent
 
 ## import
-`import crafttweaker.event.BlockBreakEvent;`
+`import crafttweaker.event.BlockFarmlandTrampleEvent;`
 
 ## Extended from
 IEventCancable / IBlockEvent > IEventPositionable
 
-## .isPlayer
-> Checks if the block broken by a player.
+## .entity
+>
 >
 > **Type:** Getter  
-> **Returns:** bool
+> **Returns:** IEntity
 
-## .player
-> Gets the player who broke the block.
+## .fallDistance
+>
 >
 > **Type:** Getter  
-> **Returns:** IPlayer
-
-## .experience
-> Gets/Sets the experience dropped from the block.
->
-> **Type:** Getter/Setter  
-> **Returns:** int 
+> **Returns:** float
 
 # By proxy methods
 

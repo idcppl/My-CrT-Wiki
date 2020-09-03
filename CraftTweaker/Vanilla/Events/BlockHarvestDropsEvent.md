@@ -1,13 +1,45 @@
-# BlockBreakEvent
+# BlockHarvestDropsEvent
 
 ## import
-`import crafttweaker.event.BlockBreakEvent;`
+`import crafttweaker.event.BlockHarvestDropsEvent;`
 
 ## Extended from
-IEventCancable / IBlockEvent > IEventPositionable
+IBlockEvent > IEventPositionable
+
+## .dropChance
+> Gets/Sets the drop chance for the block.
+>
+> **Type:** Getter/Setter  
+> **Returns:** float
+
+## .fortuneLevel
+> Gets the fortune level for the block.
+>
+> **Type:** Getter  
+> **Returns:** int
+
+## .drops
+> Gets/Sets the drops for the block. Has a different set of drops if the tool used has silk touch.
+>
+> **Type:** Getter/Setter  
+> **Returns:** WeightedItemStack
+
+## .addItem(stack)
+> Adds an item to the drops for this block. Will add to a different set depending on if the tool used has silk touch.
+>
+> **Type:** Method  
+> | Parameters      | Type              |
+> |-----------------|-------------------|
+> | stack           | WeightedItemStack |
+
+## .silkTouch
+> Checks if the tool used has silk touch. 
+>
+> **Type:** Getter  
+> **Returns:** bool
 
 ## .isPlayer
-> Checks if the block broken by a player.
+> Checks if the block is broken by a player.
 >
 > **Type:** Getter  
 > **Returns:** bool
@@ -18,19 +50,7 @@ IEventCancable / IBlockEvent > IEventPositionable
 > **Type:** Getter  
 > **Returns:** IPlayer
 
-## .experience
-> Gets/Sets the experience dropped from the block.
->
-> **Type:** Getter/Setter  
-> **Returns:** int 
-
 # By proxy methods
-
-## IEventCancable
-> | Getter/Method   | Setter/Method     | Type                  |
-> |-----------------|-------------------|-----------------------|
-> | canceled        | canceled          | bool                  |
-> | cencel()        |                   | void                  |
 
 ## IBlockEvent
 > | Getter/Method   | Setter/Method     | Type                  |

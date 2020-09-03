@@ -3,7 +3,7 @@
 ## import
 `import crafttweaker.event.AnimalTameEvent;`
 
-## Extended From
+## Extended from
 
 IEventCancable / IPlayerEvent > ILivingEvent > IEntityEvent
 
