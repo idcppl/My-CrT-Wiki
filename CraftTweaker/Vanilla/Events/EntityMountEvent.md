@@ -4,7 +4,7 @@
 `import crafttweaker.event.EntityMountEvent`
 
 ## Extended from
-[IEventCancelable](/CraftTweaker/Vanilla/Events/IEventCancelable .md) / IEntityEvent
+[IEventCancelable](/CraftTweaker/Vanilla/Events/IEventCancelable.md) / IEntityEvent
 
 ## .mountingEntity
 > Gets the mounting entity.
@@ -22,13 +22,13 @@
 > Checks if an entity is mounting.
 >
 > **Type:** Getter  
-> **Returns:** [bool](/CraftTweaker/Vanilla/Base Types/bool.md)
+> **Returns:** [bool](/CraftTweaker/Vanilla/Base-Types/bool.md)
 
 ## .isDismounting
 > Checks if an entity is dismounting
 >
 > **Type:** Getter  
-> **Returns:** [bool](/CraftTweaker/Vanilla/Base Types/bool.md)
+> **Returns:** [bool](/CraftTweaker/Vanilla/Base-Types/bool.md)
 
 ## .world
 > Gets the world.

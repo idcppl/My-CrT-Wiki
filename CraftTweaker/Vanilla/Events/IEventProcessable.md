@@ -15,4 +15,4 @@ I EXTEND FROM NOTHING AS FOR I AM THE DUE PROCESS. I AM THE LAW.
 > Checks if it is going to be processed.
 >
 > **Type:** Getter  
-> **Returns:** [bool](/CraftTweaker/Vanilla/Base Types/bool.md)
+> **Returns:** [bool](/CraftTweaker/Vanilla/Base-Types/bool.md)

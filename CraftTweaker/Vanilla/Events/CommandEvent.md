@@ -4,7 +4,7 @@
 `import crafttweaker.event.CommandEvent;`
 
 ## Extended from
-[IEventCancelable](/CraftTweaker/Vanilla/Events/IEventCancelable .md)
+[IEventCancelable](/CraftTweaker/Vanilla/Events/IEventCancelable.md)
 
 ## .commandSender
 > Gets the command sender.
@@ -22,7 +22,7 @@
 > Gets/Sets the parameters set in the command sent.
 >
 > **Type:** Getter/Setter
-> **Returns:** [string](/CraftTweaker/Vanilla/Base Types/string.md)[]
+> **Returns:** [string](/CraftTweaker/Vanilla/Base-Types/string.md)[]
 
 # By proxy methods
 

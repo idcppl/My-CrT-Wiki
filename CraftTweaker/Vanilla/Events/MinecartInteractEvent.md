@@ -4,7 +4,7 @@
 `import crafttweaker.event.MinecartInteractEvent;`
 
 ## Extended from
-[IEventCancelable](/CraftTweaker/Vanilla/Events/IEventCancelable .md) / IMinecartEvent
+[IEventCancelable](/CraftTweaker/Vanilla/Events/IEventCancelable.md) / IMinecartEvent
 
 ## .player
 > Gets the player.
@@ -22,7 +22,7 @@
 > Gets something.
 >
 > **Type:** Getter  
-> **Returns:** [string](/CraftTweaker/Vanilla/Base Types/string.md)
+> **Returns:** [string](/CraftTweaker/Vanilla/Base-Types/string.md)
 
 # By proxy methods
 

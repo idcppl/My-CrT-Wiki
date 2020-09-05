@@ -4,7 +4,7 @@
 `import crafttweaker.event.BlockPlaceEvent;`
 
 ## Extended from
-[IEventCancelable](/CraftTweaker/Vanilla/Events/IEventCancelable .md) / IBlockEvent > IEventPositionable
+[IEventCancelable](/CraftTweaker/Vanilla/Events/IEventCancelable.md) / IBlockEvent > IEventPositionable
 
 ## .player
 > Gets the player who placed the block.
@@ -28,7 +28,7 @@
 > Gets the block in the player hand.
 >
 > **Type:** Getter  
-> **Returns:** [string](/CraftTweaker/Vanilla/Base Types/string.md)
+> **Returns:** [string](/CraftTweaker/Vanilla/Base-Types/string.md)
 
 # By proxy methods
 

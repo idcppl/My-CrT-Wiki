@@ -28,7 +28,7 @@
 > Checks if the critical hit is from jumping and hitting the target.
 >
 > **Type:** Getter  
-> **Returns:** [bool](/CraftTweaker/Vanilla/Base Types/bool.md)
+> **Returns:** [bool](/CraftTweaker/Vanilla/Base-Types/bool.md)
 
 # By proxy methods
 

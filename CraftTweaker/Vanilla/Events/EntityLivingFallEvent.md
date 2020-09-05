@@ -4,7 +4,7 @@
 `import crafttweaker.event.EntityLivingFallEvent;`
 
 ## Extended from
-[IEventCancelable](/CraftTweaker/Vanilla/Events/IEventCancelable .md) / [ILivingEvent](/CraftTweaker/Vanilla/Events/ILivingEvent.md) > [IEntityEvent](CraftTweaker/Vanilla/Events/IEntityEvent.md)
+[IEventCancelable](/CraftTweaker/Vanilla/Events/IEventCancelable.md) / [ILivingEvent](/CraftTweaker/Vanilla/Events/ILivingEvent.md) > [IEntityEvent](CraftTweaker/Vanilla/Events/IEntityEvent.md)
 
 ## .distance
 > Gets/Sets the distance the entity has fallen.

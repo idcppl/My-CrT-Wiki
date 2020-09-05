@@ -4,7 +4,7 @@
 `import crafttweaker.event.BlockFarmlandTrampleEvent;`
 
 ## Extended from
-[IEventCancelable](/CraftTweaker/Vanilla/Events/IEventCancelable .md) / IBlockEvent > IEventPositionable
+[IEventCancelable](/CraftTweaker/Vanilla/Events/IEventCancelable.md) / IBlockEvent > IEventPositionable
 
 ## .entity
 >

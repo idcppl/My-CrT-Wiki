@@ -4,7 +4,7 @@
 `import crafttweaker.event.EntityLivingDeathDropsEvent;`
 
 ## Extended from
-[IEventCancelable](/CraftTweaker/Vanilla/Events/IEventCancelable .md) / [ILivingEvent](/CraftTweaker/Vanilla/Events/ILivingEvent.md) > [IEntityEvent](CraftTweaker/Vanilla/Events/IEntityEvent.md)
+[IEventCancelable](/CraftTweaker/Vanilla/Events/IEventCancelable.md) / [ILivingEvent](/CraftTweaker/Vanilla/Events/ILivingEvent.md) > [IEntityEvent](CraftTweaker/Vanilla/Events/IEntityEvent.md)
 
 ## .damageSource
 > Gets the damage source that killed the entity.
@@ -25,13 +25,13 @@
 > Gets the looting level of the weapon used.
 >
 > **Type:** Getter  
-> **Returns:** [int](/CraftTweaker/Vanilla/Base Types/int.md)
+> **Returns:** [int](/CraftTweaker/Vanilla/Base-Types/int.md)
 
 ## .isRecentlyHit
 > Checks if it has been recently hit by a player.
 >
 > **Type:** Getter  
-> **Returns:** [bool](/CraftTweaker/Vanilla/Base Types/bool.md)
+> **Returns:** [bool](/CraftTweaker/Vanilla/Base-Types/bool.md)
 
 ## .drops
 > Gets/Sets the drops of the entity.

@@ -16,13 +16,13 @@ IEventPositionable
 > Gets the row that the enchantment is being called from.
 >
 > **Type:** Getter  
-> **Returns:** [int](/CraftTweaker/Vanilla/Base Types/int.md)
+> **Returns:** [int](/CraftTweaker/Vanilla/Base-Types/int.md)
 
 ## .power
 > Gets the power of the enchantment.
 >
 > **Type:** Getter  
-> **Returns:** [int](/CraftTweaker/Vanilla/Base Types/int.md)
+> **Returns:** [int](/CraftTweaker/Vanilla/Base-Types/int.md)
 
 ## .item
 > Gets the item that being enchanted.
@@ -34,13 +34,13 @@ IEventPositionable
 > Gets the original Level of the enchantment.
 >
 > **Type:** Getter  
-> **Returns:** [int](/CraftTweaker/Vanilla/Base Types/int.md)
+> **Returns:** [int](/CraftTweaker/Vanilla/Base-Types/int.md)
 
 ## .level
 > Gets/Sets the level's used in the enchantment.
 >
 > **Type:** Getter/Setter  
-> **Returns:** [int](/CraftTweaker/Vanilla/Base Types/int.md)
+> **Returns:** [int](/CraftTweaker/Vanilla/Base-Types/int.md)
 
 # By proxy methods
 

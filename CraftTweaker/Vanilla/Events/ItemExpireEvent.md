@@ -4,7 +4,7 @@
 `import crafttweaker.event.ItemExpireEvent;`
 
 ## Extended from
-[IEventCancelable](/CraftTweaker/Vanilla/Events/IEventCancelable .md) / IEntityEvent
+[IEventCancelable](/CraftTweaker/Vanilla/Events/IEventCancelable.md) / IEntityEvent
 
 ## .item
 > Gets the item that wants to expire.
@@ -16,7 +16,7 @@
 > Gets/Sets the time left before the item expires.
 >
 > **Type:** Getter/Setter  
-> **Returns:** [int](/CraftTweaker/Vanilla/Base Types/int.md)
+> **Returns:** [int](/CraftTweaker/Vanilla/Base-Types/int.md)
 
 # By proxy methods
 

@@ -5,7 +5,7 @@
 
 ## Extended from
 
-[IEventCancelable](/CraftTweaker/Vanilla/Events/IEventCancelable .md) / [IPlayerEvent](/CraftTweaker/Vanilla/Events/IPlayerEvent.md) > [ILivingEvent](/CraftTweaker/Vanilla/Events/ILivingEvent.md) > [IEntityEvent](CraftTweaker/Vanilla/Events/IEntityEvent.md)
+[IEventCancelable](/CraftTweaker/Vanilla/Events/IEventCancelable.md) / [IPlayerEvent](/CraftTweaker/Vanilla/Events/IPlayerEvent.md) > [ILivingEvent](/CraftTweaker/Vanilla/Events/ILivingEvent.md) > [IEntityEvent](CraftTweaker/Vanilla/Events/IEntityEvent.md)
 
 ## .animal
 > Gets the animal that was tamed.

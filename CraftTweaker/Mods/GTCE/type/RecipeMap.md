@@ -40,13 +40,13 @@ These methods should be used after you've called one of the above methods.
 > The localized name of the [RecipeMap](/CraftTweaker/Mods/GTCE/type/RecipeMap.md).
 >
 > **Type:** Method  
-> **Returns:** [string](/CraftTweaker/Vanilla/Base Types/string.md)
+> **Returns:** [string](/CraftTweaker/Vanilla/Base-Types/string.md)
 
 ## .unlocalizedName
 > The unlocalized name of the [RecipeMap](/CraftTweaker/Mods/GTCE/type/RecipeMap.md).
 >
 > **Type:** Method  
-> **Returns:** [string](/CraftTweaker/Vanilla/Base Types/string.md)
+> **Returns:** [string](/CraftTweaker/Vanilla/Base-Types/string.md)
 
 ## .recipeBuilder()
 > The method to begin building a recipe.

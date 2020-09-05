@@ -10,7 +10,7 @@
 > Gets the id of the achievement.
 >
 > **Type:** Getter  
-> **Returns:** [string](/CraftTweaker/Vanilla/Base Types/string.md)
+> **Returns:** [string](/CraftTweaker/Vanilla/Base-Types/string.md)
 
 # By proxy methods
 

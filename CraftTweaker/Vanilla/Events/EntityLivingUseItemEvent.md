@@ -8,8 +8,8 @@
 `import crafttweaker.event.EntityLivingUseItemEvent.Tick;`
 
 ## Extended from
-(All) [IEventCancelable](/CraftTweaker/Vanilla/Events/IEventCancelable .md) / [ILivingEvent](/CraftTweaker/Vanilla/Events/ILivingEvent.md) > IEntityEvent  
-(Start, Stop, Finish, Tick) EntityLivingUseItemEvent > [IEventCancelable](/CraftTweaker/Vanilla/Events/IEventCancelable .md) / [ILivingEvent](/CraftTweaker/Vanilla/Events/ILivingEvent.md) > IEntityEvent  
+(All) [IEventCancelable](/CraftTweaker/Vanilla/Events/IEventCancelable.md) / [ILivingEvent](/CraftTweaker/Vanilla/Events/ILivingEvent.md) > IEntityEvent  
+(Start, Stop, Finish, Tick) EntityLivingUseItemEvent > [IEventCancelable](/CraftTweaker/Vanilla/Events/IEventCancelable.md) / [ILivingEvent](/CraftTweaker/Vanilla/Events/ILivingEvent.md) > IEntityEvent  
 
 ## .item
 > Gets the item the entity is trying to use.
@@ -21,7 +21,7 @@
 > Checks if the entity is a player.
 >
 > **Type:** Getter  
-> **Returns:** [bool](/CraftTweaker/Vanilla/Base Types/bool.md)
+> **Returns:** [bool](/CraftTweaker/Vanilla/Base-Types/bool.md)
 
 ## .player
 > Gets the player.
@@ -33,7 +33,7 @@
 > Gets/Sets the duration of the item cast time.
 >
 > **Type:** Getter/Setter  
-> **Returns:** [int](/CraftTweaker/Vanilla/Base Types/int.md)
+> **Returns:** [int](/CraftTweaker/Vanilla/Base-Types/int.md)
 
 # By proxy methods
 

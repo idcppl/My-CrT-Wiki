@@ -22,16 +22,16 @@ I EXTEND FROM NOTHING AS I HAVE DESTROYED EVERYTHING THAT HAS CAME BEFORE ME. AS
 > Gets the X axis.
 >
 > **Type:** Getter  
-> **Returns:** [int](/CraftTweaker/Vanilla/Base Types/int.md)
+> **Returns:** [int](/CraftTweaker/Vanilla/Base-Types/int.md)
 
 ## .y
 > Gets the Y axis.
 >
 > **Type:** Getter  
-> **Returns:** [int](/CraftTweaker/Vanilla/Base Types/int.md)
+> **Returns:** [int](/CraftTweaker/Vanilla/Base-Types/int.md)
 
 ## .z
 > Gets the Z axis.
 >
 > **Type:** Getter  
-> **Returns:** [int](/CraftTweaker/Vanilla/Base Types/int.md)
+> **Returns:** [int](/CraftTweaker/Vanilla/Base-Types/int.md)

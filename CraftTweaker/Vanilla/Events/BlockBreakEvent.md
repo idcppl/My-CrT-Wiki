@@ -4,13 +4,13 @@
 `import crafttweaker.event.BlockBreakEvent;`
 
 ## Extended from
-[IEventCancelable](/CraftTweaker/Vanilla/Events/IEventCancelable .md) / IBlockEvent > IEventPositionable
+[IEventCancelable](/CraftTweaker/Vanilla/Events/IEventCancelable.md) / IBlockEvent > IEventPositionable
 
 ## .isPlayer
 > Checks if the block broken by a player.
 >
 > **Type:** Getter  
-> **Returns:** [bool](/CraftTweaker/Vanilla/Base Types/bool.md)
+> **Returns:** [bool](/CraftTweaker/Vanilla/Base-Types/bool.md)
 
 ## .player
 > Gets the player who broke the block.
@@ -22,7 +22,7 @@
 > Gets/Sets the experience dropped from the block.
 >
 > **Type:** Getter/Setter  
-> **Returns:** [int](/CraftTweaker/Vanilla/Base Types/int.md) 
+> **Returns:** [int](/CraftTweaker/Vanilla/Base-Types/int.md) 
 
 # By proxy methods
 
