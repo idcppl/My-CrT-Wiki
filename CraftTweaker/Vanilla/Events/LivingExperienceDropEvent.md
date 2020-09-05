@@ -4,7 +4,7 @@
 `import crafttweaker.event.LivingExperienceDropEvent;`
 
 ## Extended from
-IEventCancelable / ILivingEvent > IEntityEvent
+[IEventCancelable](/CraftTweaker/Vanilla/Events/IEventCancelable .md) / [ILivingEvent](/CraftTweaker/Vanilla/Events/ILivingEvent.md) > IEntityEvent
 
 ## .droppedExperience
 > Gets/Sets the experience of an entity.

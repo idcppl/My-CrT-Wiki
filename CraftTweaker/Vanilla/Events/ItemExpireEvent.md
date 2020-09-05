@@ -4,7 +4,7 @@
 `import crafttweaker.event.ItemExpireEvent;`
 
 ## Extended from
-IEventCancelable / IEntityEvent
+[IEventCancelable](/CraftTweaker/Vanilla/Events/IEventCancelable .md) / IEntityEvent
 
 ## .item
 > Gets the item that wants to expire.

@@ -4,7 +4,7 @@
 `import crafttweaker.event.CropGrowPreEvent;`
 
 ## Extended from
-IEventHasResult / IBlockEvent > IEventPositionable
+[IEventHasResult](/CraftTweaker/Vanilla/Events/IEventHasResult.md) / IBlockEvent > IEventPositionable
 
 # By proxy methods
 

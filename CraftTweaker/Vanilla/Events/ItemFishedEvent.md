@@ -5,7 +5,7 @@
 
 ## Extended from
 
-IEventCancelable / IPlayerEvent > ILivingEvent > IEntityEvent
+[IEventCancelable](/CraftTweaker/Vanilla/Events/IEventCancelable .md) / [IPlayerEvent](/CraftTweaker/Vanilla/Events/IPlayerEvent.md) > [ILivingEvent](/CraftTweaker/Vanilla/Events/ILivingEvent.md) > IEntityEvent
 
 ## .damage
 > Gets how damage the fishing rod is.

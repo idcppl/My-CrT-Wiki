@@ -4,7 +4,7 @@
 `import crafttweaker.event.LivingDestroyBlockEvent;`
 
 ## Extended from
-IEventPositionable / IEventCancelable / ILivingEvent > IEntityEvent
+IEventPositionable / [IEventCancelable](/CraftTweaker/Vanilla/Events/IEventCancelable .md) / [ILivingEvent](/CraftTweaker/Vanilla/Events/ILivingEvent.md) > IEntityEvent
 
 ## .state
 > Gets block state.

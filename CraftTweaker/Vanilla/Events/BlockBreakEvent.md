@@ -4,7 +4,7 @@
 `import crafttweaker.event.BlockBreakEvent;`
 
 ## Extended from
-IEventCancelable / IBlockEvent > IEventPositionable
+[IEventCancelable](/CraftTweaker/Vanilla/Events/IEventCancelable .md) / IBlockEvent > IEventPositionable
 
 ## .isPlayer
 > Checks if the block broken by a player.

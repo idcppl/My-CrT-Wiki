@@ -4,7 +4,7 @@
 `import crafttweaker.event.BlockPlaceEvent;`
 
 ## Extended from
-IEventCancelable / IBlockEvent > IEventPositionable
+[IEventCancelable](/CraftTweaker/Vanilla/Events/IEventCancelable .md) / IBlockEvent > IEventPositionable
 
 ## .player
 > Gets the player who placed the block.

@@ -4,7 +4,7 @@
 `import crafttweaker.event.EntityStruckByLightningEvent;`
 
 ## Extended from
-IEventCancelable / IEntityEvent
+[IEventCancelable](/CraftTweaker/Vanilla/Events/IEventCancelable .md) / IEntityEvent
 
 ## .lightning
 > returns something, idk, will find out shortly.

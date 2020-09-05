@@ -4,7 +4,7 @@
 `import crafttweaker.event.EnderTeleportEvent;`
 
 ## Extended from
-IEventCancelable / ILivingEvent > IEntity
+[IEventCancelable](/CraftTweaker/Vanilla/Events/IEventCancelable .md) / [ILivingEvent](/CraftTweaker/Vanilla/Events/ILivingEvent.md) > [IEntityEvent](CraftTweaker/Vanilla/Events/IEntityEvent.md)
 
 ## .targetX
 > Gets/Sets the X position of the enderman/shulker/ender pearl destination.

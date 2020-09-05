@@ -4,7 +4,7 @@
 `import crafttweaker.event.EntityLivingSpawnEvent;`
 
 ## Extended from
-ILivingEvent > IEntityEvent
+[ILivingEvent](/CraftTweaker/Vanilla/Events/ILivingEvent.md) > IEntityEvent
 
 ## .world
 > Gets the world the entity spawned in.

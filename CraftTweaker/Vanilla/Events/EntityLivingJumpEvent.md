@@ -4,7 +4,7 @@
 `import crafttweaker.event.EntityLivingJumpEvent;`
 
 ## Extended from
-ILivingEvent > IEntityEvent
+[ILivingEvent](/CraftTweaker/Vanilla/Events/ILivingEvent.md) > [IEntityEvent](CraftTweaker/Vanilla/Events/IEntityEvent.md)
 
 # By proxy methods
 

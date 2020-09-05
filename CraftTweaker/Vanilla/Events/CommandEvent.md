@@ -4,7 +4,7 @@
 `import crafttweaker.event.CommandEvent;`
 
 ## Extended from
-IEventCancelable
+[IEventCancelable](/CraftTweaker/Vanilla/Events/IEventCancelable .md)
 
 ## .commandSender
 > Gets the command sender.

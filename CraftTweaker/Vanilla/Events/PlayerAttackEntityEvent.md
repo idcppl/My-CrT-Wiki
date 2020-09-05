@@ -1,24 +1,23 @@
-# EntityLivingDeathEvent
+# PlayerAttackEntityEvent
 
 ## import
-`import crafttweaker.event.EntityLivingDeathEvent;`
+`import crafttweaker.event.PlayerAttackEntityEvent;`
 
 ## Extended from
-[IEventCancelable](/CraftTweaker/Vanilla/Events/IEventCancelable .md) / [ILivingEvent](/CraftTweaker/Vanilla/Events/ILivingEvent.md) > [IEntityEvent](CraftTweaker/Vanilla/Events/IEntityEvent.md)
+[IEventCancelable](/CraftTweaker/Vanilla/Events/IEventCancelable .md) / [IPlayerEvent](/CraftTweaker/Vanilla/Events/IPlayerEvent.md) > [ILivingEvent](/CraftTweaker/Vanilla/Events/ILivingEvent.md) > [IEntityEvent](CraftTweaker/Vanilla/Events/IEntityEvent.md)
 
-## .damageSource
-> Gets the damage source that killed the entity.
+## .target
+> Gets the entity you're attacking.
 >
 > **Type:** Getter  
-> **Returns:** IDamageSource
+> **Returns:** IEntity
 
 # By proxy methods
 
-## IEventCancelable
+## IPlayerEvent
 > | Getter/Method   | Setter/Method     | Type                  |
 > |-----------------|-------------------|-----------------------|
-> | canceled        | canceled          | bool                  |
-> | cencel()        |                   | void                  |
+> | player          |                   | IPlayer               |
 
 ## ILivingEvent
 > | Getter/Method   | Setter/Method     | Type                  |

@@ -8,8 +8,8 @@
 `import crafttweaker.event.EntityLivingUseItemEvent.Tick;`
 
 ## Extended from
-(All) IEventCancelable / ILivingEvent > IEntityEvent  
-(Start, Stop, Finish, Tick) EntityLivingUseItemEvent > IEventCancelable / ILivingEvent > IEntityEvent  
+(All) [IEventCancelable](/CraftTweaker/Vanilla/Events/IEventCancelable .md) / [ILivingEvent](/CraftTweaker/Vanilla/Events/ILivingEvent.md) > IEntityEvent  
+(Start, Stop, Finish, Tick) EntityLivingUseItemEvent > [IEventCancelable](/CraftTweaker/Vanilla/Events/IEventCancelable .md) / [ILivingEvent](/CraftTweaker/Vanilla/Events/ILivingEvent.md) > IEntityEvent  
 
 ## .item
 > Gets the item the entity is trying to use.

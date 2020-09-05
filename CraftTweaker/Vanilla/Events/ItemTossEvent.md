@@ -4,7 +4,7 @@
 `import crafttweaker.event.ItemTossEvent;`
 
 ## Extended from
-IEventCancelable / IEntityEvent
+[IEventCancelable](/CraftTweaker/Vanilla/Events/IEventCancelable .md) / IEntityEvent
 
 ## .player
 > Gets the player.

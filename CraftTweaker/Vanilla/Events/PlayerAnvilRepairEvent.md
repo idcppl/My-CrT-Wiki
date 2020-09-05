@@ -1,30 +1,41 @@
-# EntityLivingFallEvent
+# PlayerAnvilRepairEvent
 
 ## import
-`import crafttweaker.event.EntityLivingFallEvent;`
+`import crafttweaker.event.PlayerAnvilRepairEvent;`
 
 ## Extended from
-[IEventCancelable](/CraftTweaker/Vanilla/Events/IEventCancelable .md) / [ILivingEvent](/CraftTweaker/Vanilla/Events/ILivingEvent.md) > [IEntityEvent](CraftTweaker/Vanilla/Events/IEntityEvent.md)
+[IPlayerEvent](/CraftTweaker/Vanilla/Events/IPlayerEvent.md) > [ILivingEvent](/CraftTweaker/Vanilla/Events/ILivingEvent.md) > [IEntityEvent](CraftTweaker/Vanilla/Events/IEntityEvent.md)
 
-## .distance
-> Gets/Sets the distance the entity has fallen.
+## .itemResult
+> Gets the result.
 >
-> **Type:** Getter/Setter  
-> **Returns:** float
+> **Type:** Getter  
+> **Returns:** IItemStack
 
-## .damageMultiplier
-> Gets/Sets the damage multiplier for falling.
+## .itemIngredient
+> Gets first? Second slot?
+>
+> **Type:** Getter  
+> **Returns:** IItemStack
+
+## .itemInput
+> Gets first? Second slot?
+>
+> **Type:** Getter  
+> **Returns:** IItemStack
+
+## .breakChance
+> Gets/Sets the break chance?
 >
 > **Type:** Getter/Setter  
 > **Returns:** float
 
 # By proxy methods
 
-## IEventCancelable
+## IPlayerEvent
 > | Getter/Method   | Setter/Method     | Type                  |
 > |-----------------|-------------------|-----------------------|
-> | canceled        | canceled          | bool                  |
-> | cencel()        |                   | void                  |
+> | player          |                   | IPlayer               |
 
 ## ILivingEvent
 > | Getter/Method   | Setter/Method     | Type                  |

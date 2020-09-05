@@ -4,7 +4,7 @@
 `import crafttweaker.event.CriticalHitEvent;`
 
 ## Extended from
-IEventHasResult / IPlayerEvent > ILivingEvent > IEntityEvent
+[IEventHasResult](/CraftTweaker/Vanilla/Events/IEventHasResult.md) / [IPlayerEvent](/CraftTweaker/Vanilla/Events/IPlayerEvent.md) > [ILivingEvent](/CraftTweaker/Vanilla/Events/ILivingEvent.md) > [IEntityEvent](CraftTweaker/Vanilla/Events/IEntityEvent.md)
 
 ## .target
 > Gets the target of the critical hit.

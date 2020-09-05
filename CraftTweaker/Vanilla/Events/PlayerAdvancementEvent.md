@@ -1,24 +1,23 @@
-# EntityLivingDeathEvent
+# PlayerAdvancementEvent
 
 ## import
-`import crafttweaker.event.EntityLivingDeathEvent;`
+`import crafttweaker.event.PlayerAdvancementEvent;`
 
 ## Extended from
-[IEventCancelable](/CraftTweaker/Vanilla/Events/IEventCancelable .md) / [ILivingEvent](/CraftTweaker/Vanilla/Events/ILivingEvent.md) > [IEntityEvent](CraftTweaker/Vanilla/Events/IEntityEvent.md)
+[IPlayerEvent](/CraftTweaker/Vanilla/Events/IPlayerEvent.md) > [ILivingEvent](/CraftTweaker/Vanilla/Events/ILivingEvent.md) > [IEntityEvent](CraftTweaker/Vanilla/Events/IEntityEvent.md)
 
-## .damageSource
-> Gets the damage source that killed the entity.
+## .id
+> Gets the id of the achievement.
 >
 > **Type:** Getter  
-> **Returns:** IDamageSource
+> **Returns:** string
 
 # By proxy methods
 
-## IEventCancelable
+## IPlayerEvent
 > | Getter/Method   | Setter/Method     | Type                  |
 > |-----------------|-------------------|-----------------------|
-> | canceled        | canceled          | bool                  |
-> | cencel()        |                   | void                  |
+> | player          |                   | IPlayer               |
 
 ## ILivingEvent
 > | Getter/Method   | Setter/Method     | Type                  |

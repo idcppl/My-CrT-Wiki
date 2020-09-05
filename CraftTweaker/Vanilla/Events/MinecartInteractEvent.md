@@ -4,7 +4,7 @@
 `import crafttweaker.event.MinecartInteractEvent;`
 
 ## Extended from
-ICancelableEvent / IMinecartEvent
+[IEventCancelable](/CraftTweaker/Vanilla/Events/IEventCancelable .md) / IMinecartEvent
 
 ## .player
 > Gets the player.

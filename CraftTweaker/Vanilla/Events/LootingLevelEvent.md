@@ -4,7 +4,7 @@
 `import crafttweaker.event.LootingLevelEvent;`
 
 ## Extended from
-ILivingEvent > IEntityEvent
+[ILivingEvent](/CraftTweaker/Vanilla/Events/ILivingEvent.md) > IEntityEvent
 
 ## .lootingLevel
 > Gets/Sets the level of the looting enchantment.

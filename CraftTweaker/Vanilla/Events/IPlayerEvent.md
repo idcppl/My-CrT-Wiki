@@ -4,7 +4,7 @@
 `import crafttweaker.event.IPlayerEvent;`
 
 ## Extended from
-ILivingEvent > IEntityEvent
+[ILivingEvent](/CraftTweaker/Vanilla/Events/ILivingEvent.md) > IEntityEvent
 
 ## .player
 > Gets the player

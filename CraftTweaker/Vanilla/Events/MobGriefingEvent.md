@@ -4,7 +4,7 @@
 `import crafttweaker.event.MobGriefingEvent;`
 
 ## Extended from
-IEventHasResult / IEntityEvent
+[IEventHasResult](/CraftTweaker/Vanilla/Events/IEventHasResult.md) / IEntityEvent
 
 ## By proxy methods
 

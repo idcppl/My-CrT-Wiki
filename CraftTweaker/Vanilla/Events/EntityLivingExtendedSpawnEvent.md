@@ -4,7 +4,7 @@
 `import crafttweaker.event.EntityLivingExtendedSpawnEvent`
 
 ## Extended from
-EntityLivingSpawnEvent > ILivingEvent > IEntityEvent
+EntityLivingSpawnEvent > [ILivingEvent](/CraftTweaker/Vanilla/Events/ILivingEvent.md) > [IEntityEvent](CraftTweaker/Vanilla/Events/IEntityEvent.md)
 
 ## .spawner
 > Gets the base logic for a spawner.

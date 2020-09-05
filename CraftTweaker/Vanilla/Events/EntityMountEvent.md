@@ -4,7 +4,7 @@
 `import crafttweaker.event.EntityMountEvent`
 
 ## Extended from
-IEventCancelable / IEntityEvent
+[IEventCancelable](/CraftTweaker/Vanilla/Events/IEventCancelable .md) / IEntityEvent
 
 ## .mountingEntity
 > Gets the mounting entity.
