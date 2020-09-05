@@ -40,3 +40,14 @@ IEventCancelable / IBlockEvent > IEventPositionable
 > | x               |                   | int                   |
 > | y               |                   | int                   |
 > | z               |                   | int                   |
+
+# Example
+> Makes players and animals are not able to trample farmland.
+>
+> ```
+> events.onFarmlandTrample(function(event as BlockFarmlandTrampleEvent) {
+>	if(event.entity instanceof IPlayer || event.entity instanceof IEntityAnimal) {
+>		event.cancel();
+>	}
+> });
+> ```

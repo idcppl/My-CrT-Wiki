@@ -46,3 +46,13 @@ IEventCancelable / IBlockEvent > IEventPositionable
 > | x               |                   | int                   |
 > | y               |                   | int                   |
 > | z               |                   | int                   |
+
+# Example
+> Makes all blocks drop an experience orb.
+>
+> ```
+> events.onBlockBreak(function(event as BlockBreakEvent) {
+>	if(event.isPlayer) {
+>		event.experience = 1;
+>	}
+> });

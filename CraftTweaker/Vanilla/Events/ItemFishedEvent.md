@@ -1,23 +1,29 @@
-# AnimalTameEvent
+# ItemFishedEvent
 
 ## import
-`import crafttweaker.event.AnimalTameEvent;`
+`import crafttweaker.event.ItemFishedEvent;`
 
 ## Extended from
 
 IEventCancelable / IPlayerEvent > ILivingEvent > IEntityEvent
 
-## .animal
-> Gets the animal that was tamed.
+## .damage
+> Gets how damage the fishing rod is.
 >
 > **Type:** Getter  
-> **Returns:** IEntityAnimal
+> **Returns:** int
 
-## .tamer
-> Gets the player.
+## .additionalDamage
+> Sets the damage done to the fishing rod.
+>
+> **Type:** Setter  
+> **Set to:** int
+
+## .drops
+> Gets the potential drops?
 >
 > **Type:** Getter  
-> **Returns:** IPlayer
+> **Returns:** IItemStack[]
 
 # By proxy methods
 
@@ -41,15 +47,3 @@ IEventCancelable / IPlayerEvent > ILivingEvent > IEntityEvent
 > | Getter/Method   | Setter/Method     | Type                  |
 > |-----------------|-------------------|-----------------------|
 > | entity          |                   | IEntity               |
-
-# Example
-> Names the tamed mob after the player.
->
-> ```
-> events.onAnimalTame(function(event as AnimalTameEvent) {
->	if !(event.animal.hasCustomName) {
->		var name = event.tamer.name ~ "'s " ~ event.animal.definition.name;
->		event.animal.customName = name;
->	}
-> });
-> ```
