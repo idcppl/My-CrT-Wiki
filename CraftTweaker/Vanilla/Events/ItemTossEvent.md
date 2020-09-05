@@ -10,13 +10,13 @@
 > Gets the player.
 >
 > **Type:** Getter  
-> **Returns:** IPlayer
+> **Returns:** [IPlayer](/CraftTweaker/Vanilla/Player/IPlayer.md)
 
 ## .item
 > Gets the item that is being tossed.
 >
 > **Type:** Getter 
-> **Returns:** IEntityItem
+> **Returns:** [IEntity](/CraftTweaker/Vanilla/Entities/IEntity.md)Item
 
 # By proxy methods
 

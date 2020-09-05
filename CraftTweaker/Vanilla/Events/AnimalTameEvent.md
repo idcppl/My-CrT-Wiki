@@ -11,13 +11,13 @@
 > Gets the animal that was tamed.
 >
 > **Type:** Getter  
-> **Returns:** IEntityAnimal
+> **Returns:** [IEntity](/CraftTweaker/Vanilla/Entities/IEntity.md)Animal
 
 ## .tamer
 > Gets the player.
 >
 > **Type:** Getter  
-> **Returns:** IPlayer
+> **Returns:** [IPlayer](/CraftTweaker/Vanilla/Player/IPlayer.md)
 
 # By proxy methods
 

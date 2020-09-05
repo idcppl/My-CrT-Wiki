@@ -10,7 +10,7 @@ IEventPositionable / [IEventCancelable](/CraftTweaker/Vanilla/Events/IEventCance
 > Gets block state.
 >
 > **Type:** Getter  
-> **Returns:** IBlockState
+> **Returns:** [IBlockState](/CraftTweaker/Vanilla/Blocks/IBlockState.md)
 
 # By proxy methods
 

@@ -22,7 +22,7 @@
 > Gets/Sets the parameters set in the command sent.
 >
 > **Type:** Getter/Setter
-> **Returns:** string[]
+> **Returns:** [string](/CraftTweaker/Vanilla/Base Types/string.md)[]
 
 # By proxy methods
 

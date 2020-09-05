@@ -10,19 +10,19 @@
 > Gets/Sets the experience of an entity.
 >
 > **Type:** Getter/Setter  
-> **Returns:** int
+> **Returns:** [int](/CraftTweaker/Vanilla/Base Types/int.md)
 
 ## .player
 > Gets the player who killed the entity.
 >
 > **Type:** Getter  
-> **Returns:** IPlayer
+> **Returns:** [IPlayer](/CraftTweaker/Vanilla/Player/IPlayer.md)
 
 ## .originalExperience
 > Gets the original amount of experience dropped by that entity.
 >
 > **Type:** Getter  
-> **Returns:** int
+> **Returns:** [int](/CraftTweaker/Vanilla/Base Types/int.md)
 
 # By proxy methods
 

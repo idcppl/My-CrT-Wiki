@@ -25,19 +25,19 @@
 > Gets the looting level of the weapon used.
 >
 > **Type:** Getter  
-> **Returns:** int
+> **Returns:** [int](/CraftTweaker/Vanilla/Base Types/int.md)
 
 ## .isRecentlyHit
 > Checks if it has been recently hit by a player.
 >
 > **Type:** Getter  
-> **Returns:** bool
+> **Returns:** [bool](/CraftTweaker/Vanilla/Base Types/bool.md)
 
 ## .drops
 > Gets/Sets the drops of the entity.
 >
 > **Type:** Getter/Setter  
-> **Returns:** IEntityItem
+> **Returns:** [IEntity](/CraftTweaker/Vanilla/Entities/IEntity.md)Item
 
 # By proxy methods
 

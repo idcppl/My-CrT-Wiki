@@ -10,7 +10,7 @@
 > Gets the player
 >
 > **Type:** Getter  
-> **Returns:** IPlayer
+> **Returns:** [IPlayer](/CraftTweaker/Vanilla/Player/IPlayer.md)
 
 # By proxy methods
 

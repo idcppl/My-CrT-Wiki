@@ -10,25 +10,25 @@
 > Gets the mounting entity.
 >
 > **Type:** Getter  
-> **Returns:** IEntity
+> **Returns:** [IEntity](/CraftTweaker/Vanilla/Entities/IEntity.md)
 
 ## .mountedEntity
 > Gets the mounted entity.
 >
 > **Type:** Getter  
-> **Returns:** IEntity
+> **Returns:** [IEntity](/CraftTweaker/Vanilla/Entities/IEntity.md)
 
 ## .isMounting
 > Checks if an entity is mounting.
 >
 > **Type:** Getter  
-> **Returns:** bool
+> **Returns:** [bool](/CraftTweaker/Vanilla/Base Types/bool.md)
 
 ## .isDismounting
 > Checks if an entity is dismounting
 >
 > **Type:** Getter  
-> **Returns:** bool
+> **Returns:** [bool](/CraftTweaker/Vanilla/Base Types/bool.md)
 
 ## .world
 > Gets the world.

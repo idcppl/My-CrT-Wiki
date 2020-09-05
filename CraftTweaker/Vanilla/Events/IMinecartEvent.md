@@ -10,4 +10,4 @@ I DO NOT NEED TO EXTEND FOR I AM SHEER PERFECTION.
 > Gets the minecart or something.
 >
 > **Type:** Getter  
-> **Returns:** IEntity
+> **Returns:** [IEntity](/CraftTweaker/Vanilla/Entities/IEntity.md)

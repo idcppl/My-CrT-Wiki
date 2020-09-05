@@ -10,7 +10,7 @@
 >
 >
 > **Type:** Getter  
-> **Returns:** IEntity
+> **Returns:** [IEntity](/CraftTweaker/Vanilla/Entities/IEntity.md)
 
 ## .fallDistance
 >

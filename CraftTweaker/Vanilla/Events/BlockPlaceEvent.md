@@ -10,25 +10,25 @@
 > Gets the player who placed the block.
 >
 > **Type:** Getter  
-> **Returns:** IPlayer
+> **Returns:** [IPlayer](/CraftTweaker/Vanilla/Player/IPlayer.md)
 
 ## .current
 > Gets the blockstate of the block that is being placed.
 >
 > **Type:** Getter  
-> **Returns:** IBlockState
+> **Returns:** [IBlockState](/CraftTweaker/Vanilla/Blocks/IBlockState.md)
 
 ## .placedAgainst
 > Gets the blockstate of the block that you're placing against.
 >
 > **Type:** Getter  
-> **Returns:** IBlockState
+> **Returns:** [IBlockState](/CraftTweaker/Vanilla/Blocks/IBlockState.md)
 
 ## .hand
 > Gets the block in the player hand.
 >
 > **Type:** Getter  
-> **Returns:** string
+> **Returns:** [string](/CraftTweaker/Vanilla/Base Types/string.md)
 
 # By proxy methods
 

@@ -10,7 +10,7 @@
 > Gets the ID number of the dimension travelled to.
 >
 > **Type:** Getter  
-> **Returns:** int
+> **Returns:** [int](/CraftTweaker/Vanilla/Base Types/int.md)
 
 # By proxy methods
 

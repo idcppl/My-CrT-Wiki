@@ -10,13 +10,13 @@ IExplosionEvent
 > Gets the ID number of the dimension travelled to.
 >
 > **Type:** Getter  
-> **Returns:** IEntity[]
+> **Returns:** [IEntity](/CraftTweaker/Vanilla/Entities/IEntity.md)[]
 
 ## .affectedPositions
 > Gets the ID number of the dimension travelled to.
 >
 > **Type:** Getter  
-> **Returns:** IBlockPos[]
+> **Returns:** [IBlock](/CraftTweaker/Vanilla/Blocks/IBlock.md)Pos[]
 
 # By proxy methods
 

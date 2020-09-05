@@ -10,7 +10,7 @@ I EXTEND FROM NOTHING, FOR I AM THE JUDGE OF YOUR DEMISE.
 > The result.
 >
 > **Type:** Getter  
-> **Returns:** string
+> **Returns:** [string](/CraftTweaker/Vanilla/Base Types/string.md)
 
 ## .deny
 > Denies the event.

@@ -10,19 +10,19 @@
 > Checks if the block broken by a player.
 >
 > **Type:** Getter  
-> **Returns:** bool
+> **Returns:** [bool](/CraftTweaker/Vanilla/Base Types/bool.md)
 
 ## .player
 > Gets the player who broke the block.
 >
 > **Type:** Getter  
-> **Returns:** IPlayer
+> **Returns:** [IPlayer](/CraftTweaker/Vanilla/Player/IPlayer.md)
 
 ## .experience
 > Gets/Sets the experience dropped from the block.
 >
 > **Type:** Getter/Setter  
-> **Returns:** int 
+> **Returns:** [int](/CraftTweaker/Vanilla/Base Types/int.md) 
 
 # By proxy methods
 
@@ -56,3 +56,4 @@
 >		event.experience = 1;
 >	}
 > });
+> ```

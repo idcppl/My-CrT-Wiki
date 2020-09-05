@@ -10,7 +10,7 @@
 > Gets the entity you're attacking.
 >
 > **Type:** Getter  
-> **Returns:** IEntity
+> **Returns:** [IEntity](/CraftTweaker/Vanilla/Entities/IEntity.md)
 
 # By proxy methods
 

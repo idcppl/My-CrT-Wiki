@@ -10,7 +10,7 @@ IEntityEvent
 > Gets that entity living base.
 >
 > **Type:** Getter  
-> **Returns:** IEntityLivingBase
+> **Returns:** [IEntity](/CraftTweaker/Vanilla/Entities/IEntity.md)LivingBase
 
 # By proxy methods
 

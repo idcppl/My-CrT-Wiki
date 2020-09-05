@@ -10,4 +10,4 @@ I EXTEND FROM THE SHEER WILL TO CANCEL OR NOT TO CANCEL SOMETHING. FOR I AM AN I
 > Get/Set the cancel result.
 >
 > **Type:** Getter/Setter  
-> **Returns:** string
+> **Returns:** [string](/CraftTweaker/Vanilla/Base Types/string.md)

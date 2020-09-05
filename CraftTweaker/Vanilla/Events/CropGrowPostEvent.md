@@ -10,13 +10,13 @@ IBlockEvent > IEventPositionable
 > Gets the original block state of the crop.
 >
 > **Type:** Getter
-> **Returns:** IBlockState
+> **Returns:** [IBlockState](/CraftTweaker/Vanilla/Blocks/IBlockState.md)
 
 ## .originalBlock
 > Gets the original block of the crop.
 >
 > **Type:** Getter
-> **Returns:** IBlock
+> **Returns:** [IBlock](/CraftTweaker/Vanilla/Blocks/IBlock.md)
 
 # By proxy methods
 

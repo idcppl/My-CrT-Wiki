@@ -10,19 +10,19 @@
 > Gets the player.
 >
 > **Type:** Getter  
-> **Returns:** IPlayer
+> **Returns:** [IPlayer](/CraftTweaker/Vanilla/Player/IPlayer.md)
 
 ## .item
 > Gets item in hand.
 >
 > **Type:** Getter  
-> **Returns:** IItemStack
+> **Returns:** [int](/CraftTweaker/Vanilla/Items/IItemStack.md)
 
 ## .hand
 > Gets something.
 >
 > **Type:** Getter  
-> **Returns:** string
+> **Returns:** [string](/CraftTweaker/Vanilla/Base Types/string.md)
 
 # By proxy methods
 

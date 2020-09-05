@@ -16,13 +16,13 @@ IEventPositionable
 > Gets the blockstate of the block
 >
 > **Type:** Getter  
-> **Returns:** IBlockState
+> **Returns:** [IBlockState](/CraftTweaker/Vanilla/Blocks/IBlockState.md)
 
 ## .block
 > Gets the block.
 >
 > **Type:** Getter  
-> **Returns:** IBlock
+> **Returns:** [IBlock](/CraftTweaker/Vanilla/Blocks/IBlock.md)
 
 # By proxy methods
 

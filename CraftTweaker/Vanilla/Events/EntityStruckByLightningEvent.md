@@ -10,7 +10,7 @@
 > returns something, idk, will find out shortly.
 >
 > **Type:** Getter  
-> **Returns:** IEntity
+> **Returns:** [IEntity](/CraftTweaker/Vanilla/Entities/IEntity.md)
 
 # By proxy methods
 

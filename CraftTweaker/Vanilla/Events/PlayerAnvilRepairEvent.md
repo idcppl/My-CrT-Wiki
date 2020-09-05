@@ -10,19 +10,19 @@
 > Gets the result.
 >
 > **Type:** Getter  
-> **Returns:** IItemStack
+> **Returns:** [int](/CraftTweaker/Vanilla/Items/IItemStack.md)
 
 ## .itemIngredient
 > Gets first? Second slot?
 >
 > **Type:** Getter  
-> **Returns:** IItemStack
+> **Returns:** [int](/CraftTweaker/Vanilla/Items/IItemStack.md)
 
 ## .itemInput
 > Gets first? Second slot?
 >
 > **Type:** Getter  
-> **Returns:** IItemStack
+> **Returns:** [int](/CraftTweaker/Vanilla/Items/IItemStack.md)
 
 ## .breakChance
 > Gets/Sets the break chance?

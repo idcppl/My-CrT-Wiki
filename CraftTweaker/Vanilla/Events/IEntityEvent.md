@@ -10,4 +10,4 @@ EXTENDED FROM NOTHING, IT'S EXISTENCE WAS BROUGHT FROM THE VOID TO BLESSETH THEE
 > Gets the entity for the event.
 >
 > **Type:** Getter  
-> **Returns:** IEntity
+> **Returns:** [IEntity](/CraftTweaker/Vanilla/Entities/IEntity.md)

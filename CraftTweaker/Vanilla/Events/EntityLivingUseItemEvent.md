@@ -15,25 +15,25 @@
 > Gets the item the entity is trying to use.
 >
 > **Type:** Getter  
-> **Returns:** IItemStack
+> **Returns:** [int](/CraftTweaker/Vanilla/Items/IItemStack.md)
 
 ## .isPlayer
 > Checks if the entity is a player.
 >
 > **Type:** Getter  
-> **Returns:** bool
+> **Returns:** [bool](/CraftTweaker/Vanilla/Base Types/bool.md)
 
 ## .player
 > Gets the player.
 >
 > **Type:** Getter  
-> **Returns:** IPlayer
+> **Returns:** [IPlayer](/CraftTweaker/Vanilla/Player/IPlayer.md)
 
 ## .duration
 > Gets/Sets the duration of the item cast time.
 >
 > **Type:** Getter/Setter  
-> **Returns:** int
+> **Returns:** [int](/CraftTweaker/Vanilla/Base Types/int.md)
 
 # By proxy methods
 

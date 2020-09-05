@@ -16,7 +16,7 @@ IBlockEvent > IEventPositionable
 > Gets the fortune level for the block.
 >
 > **Type:** Getter  
-> **Returns:** int
+> **Returns:** [int](/CraftTweaker/Vanilla/Base Types/int.md)
 
 ## .drops
 > Gets/Sets the drops for the block. Has a different set of drops if the tool used has silk touch.
@@ -36,19 +36,19 @@ IBlockEvent > IEventPositionable
 > Checks if the tool used has silk touch. 
 >
 > **Type:** Getter  
-> **Returns:** bool
+> **Returns:** [bool](/CraftTweaker/Vanilla/Base Types/bool.md)
 
 ## .isPlayer
 > Checks if the block is broken by a player.
 >
 > **Type:** Getter  
-> **Returns:** bool
+> **Returns:** [bool](/CraftTweaker/Vanilla/Base Types/bool.md)
 
 ## .player
 > Gets the player who broke the block.
 >
 > **Type:** Getter  
-> **Returns:** IPlayer
+> **Returns:** [IPlayer](/CraftTweaker/Vanilla/Player/IPlayer.md)
 
 # By proxy methods
 

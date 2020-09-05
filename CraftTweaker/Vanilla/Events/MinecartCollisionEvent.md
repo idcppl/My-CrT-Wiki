@@ -10,7 +10,7 @@ IMinecartEvent
 > Gets the entity you collided with.
 >
 > **Type:** Getter  
-> **Returns:** IEntity
+> **Returns:** [IEntity](/CraftTweaker/Vanilla/Entities/IEntity.md)
 
 # By proxy methods
 

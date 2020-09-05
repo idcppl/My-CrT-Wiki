@@ -11,7 +11,7 @@ IUser > ICommandSender
 > Gets the player name.
 >
 > **Type:** Getter  
-> **Returns:** string
+> **Returns:** [string](/CraftTweaker/Vanilla/Base Types/string.md)
 
 ## .data
 > Gets the player data.
@@ -23,7 +23,7 @@ IUser > ICommandSender
 > Gets/Sets the player xp.
 >
 > **Type:** Getter/Setter  
-> **Returns:** int
+> **Returns:** [int](/CraftTweaker/Vanilla/Base Types/int.md)
 
 ## .data
 > Gets the player data.
@@ -70,13 +70,13 @@ IUser > ICommandSender
 > Gets the amount of items in slots in the hotbar.
 >
 > **Type:** Getter  
-> **Returns:** int
+> **Returns:** [int](/CraftTweaker/Vanilla/Base Types/int.md)
 
 ## .getHotbarStack(i)
 > Gets the items from that slot in the hotbar.
 >
 > **Type:** Method  
-> **Returns:** IItemStack
+> **Returns:** [int](/CraftTweaker/Vanilla/Items/IItemStack.md)
 > | Parameters      | Type          |
 > |-----------------|---------------|
 > | i               | int           |

@@ -10,7 +10,7 @@
 > idk
 >
 > **Type:** Getter/Setter  
-> **Returns:** IEntity 
+> **Returns:** [IEntity](/CraftTweaker/Vanilla/Entities/IEntity.md) 
 
 ## .strength
 > idk
@@ -34,7 +34,7 @@
 > idk
 >
 > **Type:** Getter  
-> **Returns:** IEntity
+> **Returns:** [IEntity](/CraftTweaker/Vanilla/Entities/IEntity.md)
 
 ## .originalStrength
 > idk

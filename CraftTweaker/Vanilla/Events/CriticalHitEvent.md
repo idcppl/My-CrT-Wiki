@@ -10,7 +10,7 @@
 > Gets the target of the critical hit.
 >
 > **Type:** Getter  
-> **Returns:** IEntity
+> **Returns:** [IEntity](/CraftTweaker/Vanilla/Entities/IEntity.md)
 
 ## .damageModifier
 > Gets/Sets the damage modifier for the critical hit.
@@ -28,7 +28,7 @@
 > Checks if the critical hit is from jumping and hitting the target.
 >
 > **Type:** Getter  
-> **Returns:** bool
+> **Returns:** [bool](/CraftTweaker/Vanilla/Base Types/bool.md)
 
 # By proxy methods
 

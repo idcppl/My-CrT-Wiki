@@ -10,7 +10,7 @@
 > Gets/Sets the level of the looting enchantment.
 >
 > **Type:** Getter/Setter  
-> **Returns:** int 
+> **Returns:** [int](/CraftTweaker/Vanilla/Base Types/int.md) 
 
 ## .damageSource
 > Gets the entity who is attacking with a weapon that has looting enchantment.

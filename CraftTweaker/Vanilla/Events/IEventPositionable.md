@@ -10,22 +10,22 @@ I DO NOT NEED TO EXTEND FROM ANYTHING FOR AS I AM HERE, THEN THERE AND OVER HERE
 > Gets the position of the block.
 >
 > **Type:** Getter  
-> **Returns:** IBlockPos
+> **Returns:** [IBlock](/CraftTweaker/Vanilla/Blocks/IBlock.md)Pos
 
 ## .x
 > Gets the X axis.
 >
 > **Type:** Getter  
-> **Returns:** int
+> **Returns:** [int](/CraftTweaker/Vanilla/Base Types/int.md)
 
 ## .y
 > Gets the Y axis.
 >
 > **Type:** Getter  
-> **Returns:** int
+> **Returns:** [int](/CraftTweaker/Vanilla/Base Types/int.md)
 
 ## .z
 > Gets the Z axis.
 >
 > **Type:** Getter  
-> **Returns:** int
+> **Returns:** [int](/CraftTweaker/Vanilla/Base Types/int.md)

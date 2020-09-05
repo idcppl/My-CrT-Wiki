@@ -11,7 +11,7 @@
 > Gets how damage the fishing rod is.
 >
 > **Type:** Getter  
-> **Returns:** int
+> **Returns:** [int](/CraftTweaker/Vanilla/Base Types/int.md)
 
 ## .additionalDamage
 > Sets the damage done to the fishing rod.
@@ -23,7 +23,7 @@
 > Gets the potential drops?
 >
 > **Type:** Getter  
-> **Returns:** IItemStack[]
+> **Returns:** [int](/CraftTweaker/Vanilla/Items/IItemStack.md)[]
 
 # By proxy methods
 
