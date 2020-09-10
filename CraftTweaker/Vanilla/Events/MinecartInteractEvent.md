@@ -4,7 +4,7 @@
 `import crafttweaker.event.MinecartInteractEvent;`
 
 ## Extended from
-[IEventCancelable](/CraftTweaker/Vanilla/Events/IEventCancelable.md) / IMinecartEvent
+[IEventCancelable](/CraftTweaker/Vanilla/Events/IEventCancelable.md) / [IMinecartEvent](/CraftTweaker/Vanilla/Events/IMinecartEvent.md)
 
 ## .player
 > Gets the player.
@@ -27,12 +27,12 @@
 # By proxy methods
 
 ## IEventCancelable
-> | Getter/Method   | Setter/Method     | Type                  |
-> |-----------------|-------------------|-----------------------|
-> | canceled        | canceled          | bool                  |
-> | cencel()        |                   | void                  |
+> | Getter/Method   | Setter/Method     | Type                                                              |
+> |-----------------|-------------------|-------------------------------------------------------------------|
+> | canceled        | canceled          | [bool](/CraftTweaker/Vanilla/Base-Types/bool.md)                  |
+> | cencel()        |                   | [void](/CraftTweaker/Vanilla/Base-Types/void.md)                  |
 
 ## IMinecartEvent
-> | Getter/Method   | Setter/Method     | Type                  |
-> |-----------------|-------------------|-----------------------|
-> | minecart        |                   | IEntity               |
+> | Getter/Method   | Setter/Method     | Type                                                               |
+> |-----------------|-------------------|--------------------------------------------------------------------|
+> | minecart        |                   | [IEntity](/CraftTweaker/Vanilla/Entities/IEntity.md)               |

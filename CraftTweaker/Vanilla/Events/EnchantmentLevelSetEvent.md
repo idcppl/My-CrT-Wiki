@@ -45,9 +45,9 @@ IEventPositionable
 # By proxy methods
 
 ## IEventPositionable
-> | Getter/Method   | Setter/Method     | Type                  |
-> |-----------------|-------------------|-----------------------|
-> | position        |                   | IBlockPos             |
-> | x               |                   | int                   |
-> | y               |                   | int                   |
-> | z               |                   | int                   |
+> | Getter/Method   | Setter/Method     | Type                                                             |
+> |-----------------|-------------------|------------------------------------------------------------------|
+> | position        |                   | [IBlockPos](/CraftTweaker/Vanilla/World/IBlockPos.md)            |
+> | x               |                   | [int](/CraftTweaker/Vanilla/Base-Types/int.md)                   |
+> | y               |                   | [int](/CraftTweaker/Vanilla/Base-Types/int.md)                   |
+> | z               |                   | [int](/CraftTweaker/Vanilla/Base-Types/int.md)                   |

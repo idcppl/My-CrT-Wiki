@@ -17,15 +17,15 @@ I EXTEND FROM NOTHING AS I AM THE GOD OF ALCHEMY.
 >
 > **Type:** Method  
 > **Returns:** [int](/CraftTweaker/Vanilla/Items/IItemStack.md)
-> | Parameters      | Type              |
-> |-----------------|-------------------|
-> | index           | int               |
+> | Parameters      | Type                                                         |
+> |-----------------|--------------------------------------------------------------|
+> | index           | [int](/CraftTweaker/Vanilla/Base-Types/int.md)               |
 
 ## .setItem(index, stack);
 > Sets the item to something.
 >
 > **Type:** Method  
-> | Parameters      | Type              |
-> |-----------------|-------------------|
-> | index           | int               |
-> | stack           | IItemStack        |
+> | Parameters      | Type                                                         |
+> |-----------------|--------------------------------------------------------------|
+> | index           | [int](/CraftTweaker/Vanilla/Base-Types/int.md)               |
+> | stack           | [IItemStack](/CraftTweaker/Vanilla/Items/IItemStack.md)      |

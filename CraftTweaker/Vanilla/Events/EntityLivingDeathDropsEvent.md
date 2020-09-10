@@ -10,16 +10,16 @@
 > Gets the damage source that killed the entity.
 >
 > **Type:** Getter  
-> **Returns:** IDamageSource
+> **Returns:** [IDamageSource](CraftTweaker/Vanilla/Damage/IDamageSource.md)
 
 ## .addItem(item/entityItem)
 >
 >
 > **Type:** Method  
-> | Parameters      | Type          |
-> |-----------------|---------------|
-> | item            | IItemStack    |
-> | entityItem      | IEnityItem    |
+> | Parameters      | Type                                                            |
+> |-----------------|-----------------------------------------------------------------|
+> | item            | [IItemStack](/CraftTweaker/Vanilla/Items/IItemStack.md)         |
+> | entityItem      | [IEntityItem](/CraftTweaker/Vanilla/Entities/IEntityItem.md)    |
 
 ## .lootingLevel
 > Gets the looting level of the weapon used.
@@ -37,22 +37,22 @@
 > Gets/Sets the drops of the entity.
 >
 > **Type:** Getter/Setter  
-> **Returns:** [IEntity](/CraftTweaker/Vanilla/Entities/IEntity.md)Item
+> **Returns:** [IEntityItem](/CraftTweaker/Vanilla/Entities/IEntityItem.md)
 
 # By proxy methods
 
 ## IEventCancelable
-> | Getter/Method   | Setter/Method     | Type                  |
-> |-----------------|-------------------|-----------------------|
-> | canceled        | canceled          | bool                  |
-> | cencel()        |                   | void                  |
+> | Getter/Method   | Setter/Method     | Type                                                              |
+> |-----------------|-------------------|-------------------------------------------------------------------|
+> | canceled        | canceled          | [bool](/CraftTweaker/Vanilla/Base-Types/bool.md)                  |
+> | cencel()        |                   | [void](/CraftTweaker/Vanilla/Base-Types/void.md)                  |
 
 ## ILivingEvent
-> | Getter/Method   | Setter/Method     | Type                  |
-> |-----------------|-------------------|-----------------------|
-> | entityLivingBase|                   | IEntityLivingBase     |
+> | Getter/Method   | Setter/Method     | Type                                                                         |
+> |-----------------|-------------------|------------------------------------------------------------------------------|
+> | entityLivingBase|                   | [IEntityLivingBase](/CraftTweaker/Vanilla/Entities/IEntityLivingBase.md)     |
 
 ## IEntityEvent
-> | Getter/Method   | Setter/Method     | Type                  |
-> |-----------------|-------------------|-----------------------|
-> | entity          |                   | IEntity               |
+> | Getter/Method   | Setter/Method     | Type                                                               |
+> |-----------------|-------------------|--------------------------------------------------------------------|
+> | entity          |                   | [IEntity](/CraftTweaker/Vanilla/Entities/IEntity.md)               |

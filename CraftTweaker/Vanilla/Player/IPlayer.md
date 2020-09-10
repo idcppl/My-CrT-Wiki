@@ -37,7 +37,7 @@ IUser > ICommandSender
 > **Type:** Method  
 > | Parameters      | Type          |
 > |-----------------|---------------|
-> | xp              | int           |
+> | xp              | [int](/CraftTweaker/Vanilla/Base-Types/int.md)           |
 
 ## .update(data)
 > Updates the player data.
@@ -54,7 +54,7 @@ IUser > ICommandSender
 > | Parameters         | Type          |
 > |--------------------|---------------|
 > | message            | IChatMessage  |
-> | message            | string        |
+> | message            | [string](/CraftTweaker/Vanilla/Base-Types/string.md)        |
 
 ## .sendStatusMessage(message, hotbar)
 > Does something slightly different.
@@ -63,8 +63,8 @@ IUser > ICommandSender
 > | Parameters         | Type          |
 > |--------------------|---------------|
 > | message            | IFormattedText|
-> | message            | string        |
-> | hotbar             | bool          |
+> | message            | [string](/CraftTweaker/Vanilla/Base-Types/string.md)        |
+> | hotbar             | [bool](/CraftTweaker/Vanilla/Base-Types/bool.md)          |
 
 ## .hotbarSize
 > Gets the amount of items in slots in the hotbar.
@@ -79,4 +79,4 @@ IUser > ICommandSender
 > **Returns:** [int](/CraftTweaker/Vanilla/Items/IItemStack.md)
 > | Parameters      | Type          |
 > |-----------------|---------------|
-> | i               | int           |
+> | i               | [int](/CraftTweaker/Vanilla/Base-Types/int.md)           |

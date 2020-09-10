@@ -10,13 +10,13 @@
 > Gets the command sender.
 >
 > **Type:** Getter  
-> **Returns:** ICommandSender
+> **Returns:** [ICommandSender](/CraftTweaker/Vanilla/Command/ICommandSender.md)
 
 ## .command
 > Gets the command.
 >
 > **Type:** Getter
-> **Returns:** ICommand
+> **Returns:** [ICommand](/CraftTweaker/Vanilla/Command/ICommand.md)
 
 ## .parameters
 > Gets/Sets the parameters set in the command sent.
@@ -29,5 +29,5 @@
 ## IEventCancelable
 > | Getter/Method   | Setter/Method     | Type                  |
 > |-----------------|-------------------|-----------------------|
-> | canceled        | canceled          | bool                  |
-> | cencel()        |                   | void                  |
+> | canceled        | canceled          | [bool](/CraftTweaker/Vanilla/Base-Types/bool.md)                  |
+> | cencel()        |                   | [void](/CraftTweaker/Vanilla/Base-Types/void.md)                  |

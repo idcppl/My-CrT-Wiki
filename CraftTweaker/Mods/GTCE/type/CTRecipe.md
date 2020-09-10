@@ -70,7 +70,7 @@
 > **Returns:** Object
 > | Parameters  | Type      | Use                   |
 > |-------------|-----------|-----------------------|
-> | key         | string    | name of the property  |
+> | key         | [string](/CraftTweaker/Vanilla/Base-Types/string.md)    | name of the property  |
 
 
 ## .remove()

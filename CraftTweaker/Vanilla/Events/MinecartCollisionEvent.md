@@ -4,7 +4,7 @@
 `import crafttweaker.event.MinecartCollisionEvent;`
 
 ## Extended from
-IMinecartEvent
+[IMinecartEvent](/CraftTweaker/Vanilla/Events/IMinecartEvent.md)
 
 ## .collider
 > Gets the entity you collided with.
@@ -15,6 +15,6 @@ IMinecartEvent
 # By proxy methods
 
 ## IMinecartEvent
-> | Getter/Method   | Setter/Method     | Type                  |
-> |-----------------|-------------------|-----------------------|
-> | minecart        |                   | IEntity               |
+> | Getter/Method   | Setter/Method     | Type                                                               |
+> |-----------------|-------------------|--------------------------------------------------------------------|
+> | minecart        |                   | [IEntity](/CraftTweaker/Vanilla/Entities/IEntity.md)               |

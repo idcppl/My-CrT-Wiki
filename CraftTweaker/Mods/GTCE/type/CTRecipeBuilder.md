@@ -9,7 +9,7 @@
 > **Type:** Method
 > | Parameters  | types     | Uses                      |
 > |-------------|-----------|---------------------------|
-> | duration    | int       | Time mother fucker        |
+> | duration    | [int](/CraftTweaker/Vanilla/Base-Types/int.md)       | Time mother fucker        |
 
 ## .EUt(EUt)
 > Is the amount of eu used per tick. It is suggested to not use a full packet(32/128/512/1024/ect).
@@ -17,7 +17,7 @@
 > **Type:** Method
 > | Parameters  | types     | Uses                      |
 > |-------------|-----------|---------------------------|
-> | EUt         | int       | energy mother fucker      |
+> | EUt         | [int](/CraftTweaker/Vanilla/Base-Types/int.md)       | energy mother fucker      |
 
 ## .hidden()
 >To hide the recipe from JEI.
@@ -55,8 +55,8 @@
 > | Parameters      | types         | Uses                                  |
 > |-----------------|---------------|---------------------------------------|
 > | outputStack     | IItemStack    | Random item mother fucker             |
-> | chanceValue     | int           | Initial chance mother fucker          |
-> | tierChanceBoost | int           | Boosted chance by tier mother fucker  |
+> | chanceValue     | [int](/CraftTweaker/Vanilla/Base-Types/int.md)           | Initial chance mother fucker          |
+> | tierChanceBoost | [int](/CraftTweaker/Vanilla/Base-Types/int.md)           | Boosted chance by tier mother fucker  |
 
 ## .fluidInput(ingredients)
 > Is a fluid input for the recipe.
@@ -80,8 +80,8 @@
 > **Type:** Method
 > | Parameters  | types             | Uses                      |
 > |-------------|-------------------|---------------------------|
-> | key         | string            | Property mother fucker    |
-> | value       | int               | Number mother fucker      |
+> | key         | [string](/CraftTweaker/Vanilla/Base-Types/string.md)            | Property mother fucker    |
+> | value       | [int](/CraftTweaker/Vanilla/Base-Types/int.md)               | Number mother fucker      |
 >
 > * * *
 >
@@ -90,7 +90,7 @@
 > **Type:** Method
 > | Parameters  | types             | Uses                      |
 > |-------------|-------------------|---------------------------|
-> | key         | string            | Property mother fucker    |
+> | key         | [string](/CraftTweaker/Vanilla/Base-Types/string.md)            | Property mother fucker    |
 > | value       | IItemStack        | Item mother fucker        |
 
 ## .buildAndRegister()

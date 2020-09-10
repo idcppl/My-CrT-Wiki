@@ -10,7 +10,7 @@ I EXTEND FROM NOTHING AS I HAVE DESTROYED EVERYTHING THAT HAS CAME BEFORE ME. AS
 > Gets the world.
 >
 > **Type:** Getter  
-> **Returns:** IWorld
+> **Returns:** [IWorld](/CraftTweaker/Vanilla/World/IWorld.md)
 
 ## .position
 > Gets the position of the block.

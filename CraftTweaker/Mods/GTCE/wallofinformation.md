@@ -72,8 +72,8 @@ GTCE stores all it's recipes in a `RecipeMap`
 |-----------------------------------------------------------------------|-------------------|
 | findRecipe(long EUt, IItemStack[] inputs, ILiquidStack[] fluidInputs) | CTRecipe          |
 | recipes                                                               | CTRecipe[]        |
-| localizedName                                                         | string            |
-| unlocalizedName                                                       | string            |
+| localizedName                                                         | [string](/CraftTweaker/Vanilla/Base-Types/string.md)            |
+| unlocalizedName                                                       | [string](/CraftTweaker/Vanilla/Base-Types/string.md)            |
 | recipeBuilder()                                                       | CTRecipeBuilder   |
 
 ### RecipeMap notes
@@ -104,7 +104,7 @@ GTCE stores all it's recipes in a `RecipeMap`
 ## Property's
 | Key Name      | Value as          | Use                                           |
 |---------------|-------------------|-----------------------------------------------|
-| circuit       | int               | Acts as a none consumable circuit             |
-| temperature   | int               | Sets the temperature for the recipe           |
-| Explosives    | int               | Acts as the amount of explosives in the input |
+| circuit       | [int](/CraftTweaker/Vanilla/Base-Types/int.md)               | Acts as a none consumable circuit             |
+| temperature   | [int](/CraftTweaker/Vanilla/Base-Types/int.md)               | Sets the temperature for the recipe           |
+| Explosives    | [int](/CraftTweaker/Vanilla/Base-Types/int.md)               | Acts as the amount of explosives in the input |
 | Explosives    | IItemStack        | Sets the IItemStack for the explosives input  |

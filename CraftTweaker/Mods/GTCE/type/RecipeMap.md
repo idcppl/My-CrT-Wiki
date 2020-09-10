@@ -26,7 +26,7 @@ These methods should be used after you've called one of the above methods.
 > **Returns:** [CTRecipe](/CraftTweaker/Mods/GTCE/type/CTRecipe.md)
 > | Parameters          | types         | Uses                                  |
 > |---------------------|---------------|---------------------------------------|
-> | maxVoltage          | int           | a voltage above the recipe required.  |
+> | maxVoltage          | [int](/CraftTweaker/Vanilla/Base-Types/int.md)           | a voltage above the recipe required.  |
 > | itemInputs          | IItemStack[]  | Nullable. Item inputs.                |
 > | fluidInputs         | ILiquidStack[]| Nullable. fluid inputs.               |
 

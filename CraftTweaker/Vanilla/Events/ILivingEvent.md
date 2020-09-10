@@ -4,7 +4,7 @@
 `import crafttweaker.event.ILivingEvent;`
 
 ## Extends from
-IEntityEvent
+[IEntityEvent](CraftTweaker/Vanilla/Events/IEntityEvent.md)
 
 ## .entityLivingBase
 > Gets that entity living base.
@@ -15,6 +15,6 @@ IEntityEvent
 # By proxy methods
 
 ## IEntityEvent
-> | Getter/Method   | Setter/Method     | Type                  |
-> |-----------------|-------------------|-----------------------|
-> | entity          |                   | IEntity               |
+> | Getter/Method   | Setter/Method     | Type                                                               |
+> |-----------------|-------------------|--------------------------------------------------------------------|
+> | entity          |                   | [IEntity](/CraftTweaker/Vanilla/Entities/IEntity.md)               |
