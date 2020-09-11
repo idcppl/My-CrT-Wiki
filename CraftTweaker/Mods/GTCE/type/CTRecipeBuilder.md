@@ -46,7 +46,7 @@
 > **Type:** Method
 > | Parameters  | types         | Uses                      |
 > |-------------|---------------|---------------------------|
-> | ingredients | IItemStack... | Time mother fucker        |
+> | ingredients | [IItemStack](/CraftTweaker/Vanilla/Items/IItemStack.md)... | Time mother fucker        |
 
 ## .chancedOutput(outputStack, chanceValue, tierChanceBoost)
 > Is an output item that has a chance of happening. The ints are a number between 0-10000. The formula used for calculating the chance is `chance + (boostPerTier * tier)`
@@ -75,7 +75,7 @@
 > | ingredients | ILiquidStack...   | Fluid output mother fucker    |
 
 ## .property(key, value)
-> Is a property for the recipe. It is used for the property's: `circuit`, `temperature`, and `explosives`.
+> Is a property for the recipe. It is used for the property's: `circuit`, `temperature`, and `explosives`. For the `explosives` property the value is halved.
 >
 > **Type:** Method
 > | Parameters  | types             | Uses                      |
@@ -91,7 +91,7 @@
 > | Parameters  | types             | Uses                      |
 > |-------------|-------------------|---------------------------|
 > | key         | [string](/CraftTweaker/Vanilla/Base-Types/string.md)            | Property mother fucker    |
-> | value       | IItemStack        | Item mother fucker        |
+> | value       | [IItemStack](/CraftTweaker/Vanilla/Items/IItemStack.md)        | Item mother fucker        |
 
 ## .buildAndRegister()
 > Is the the final method for the recipe builder.
