@@ -59,6 +59,5 @@
 > | Cracker Unit                | Clean Stainless Steel Casing  | 20        |
 > | Electric Blast Furnace      | Heat Proof Machine Casing     | 10        |
 > | Multi Smelter               | Heat Proof Machine Casing     | 9         |
-> | Multi Smelter               | Heat Proof Machine Casing     | 9         |
 > | Large Boiler                | X Firebox Casing              | 4         |
 > | Large Boiler                | X Pipe Casing                 | 20        |
