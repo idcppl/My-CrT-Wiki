@@ -1,5 +1,5 @@
 # Flags
-> |                                         | FluidMaterial | DustMaterial  | IngotMaterial | GemMaterial   | RoughSolidMaterial    |
+> |                                         | Fluid         | Dust          | Ingot         | Gem           | RoughSolid            |
 > |-----------------------------------------|---------------|---------------|---------------|---------------|-----------------------|
 > | EXPLOSIVE                               | true          | true          | true          | true          | true                  |
 > | NO_UNIFICATION                          | true          | true          | true          | true          | true                  |
