@@ -3,6 +3,9 @@
 ## import
 `import crafttweaker.event.BlockBreakEvent;`
 
+## Call event
+> `events.onBlockBreak`
+
 ## Extended from
 [IEventCancelable](/CraftTweaker/Vanilla/Events/IEventCancelable.md) / [IBlockEvent](/CraftTweaker/Vanilla/Events/IBlockEvent.md) > [IEventPositionable](/CraftTweaker/Vanilla/Events/IEventPositionable.md)
 

@@ -80,3 +80,91 @@ IUser > ICommandSender
 > | Parameters      | Type          |
 > |-----------------|---------------|
 > | i               | [int](/CraftTweaker/Vanilla/Base-Types/int.md)           |
+
+## .currentItem
+> Gets the current item in the player hand.
+>
+> **Type:** Getter  
+> **Returns:** [IItemStack](/CraftTweaker/Vanilla/Items/IItemStack.md)
+
+## .creative
+> Tells if the player in creative.
+>
+> **Type:** Getter  
+> **Returns:** [bool](/CraftTweaker/Vanilla/Base-Types/bool.md)
+
+## .adventure
+> Tells if the player in adventure.
+>
+> **Type:** Getter  
+> **Returns:** [bool](/CraftTweaker/Vanilla/Base-Types/bool.md)
+
+## .give(stack)
+> Gives the player the item.
+>
+> **Type:** Method  
+> | Parameters | Type                                                       |
+> |------------|------------------------------------------------------------|
+> | stack      | [IItemStack](/CraftTweaker/Vanilla/Items/IItemStack.md)    |
+
+## .teleport(pos)
+> Teleports the player to the position.
+>
+> **Type:** Method
+> | Parameters | Type                                                   |
+> |------------|--------------------------------------------------------|
+> | pos        | [Position3f](CraftTweaker/Vanilla/Util/Position3f.md)  |
+
+## .changeDimension(id)
+> Changes the player to another dimension.
+>
+> **Type:** Method  
+> | Parameters | Type                                           |
+> |------------|------------------------------------------------|
+> | id         | [int](/CraftTweaker/Vanilla/Base-Types/int.md) |
+
+## .score
+> Gets/Sets the player score.
+>
+> **Type:** Getter/Setter  
+> **Returns:** int
+
+## .addScore(amount)
+> Adds to the player score.
+>
+> **Type:** Method
+> | Parameters | Type                                           |
+> |------------|------------------------------------------------|
+> | amount     | [int](/CraftTweaker/Vanilla/Base-Types/int.md) |
+
+## .foodStats
+> Gets the player food stats.
+>
+> **Type:** Getter  
+> **Returns:** [IFoodStats](/CraftTweaker/Vanilla/Player/IFoodStats.md)
+
+## .executeCommand(rawCommand)
+> Tries to execute the command as the player. OP commands won't work if the player is not OP.
+>
+> **Type:** Method  
+> | Parameters | Type                                                   |
+> |------------|--------------------------------------------------------|
+> | rawCommand | [string](/CraftTweaker/Vanilla/Base-Types/string.md)   |
+
+## .damageDisabled
+> Gets/Sets if the player can deal damage?
+>
+> **Type:** Getter/Setter  
+> **Returns:** [bool](/CraftTweaker/Vanilla/Base-Types/bool.md)
+
+## .canFly
+> Gets/Sets if the player can fly.
+>
+> **Type:** Getter/Setter  
+> **Returns:** [bool](/CraftTweaker/Vanilla/Base-Types/bool.md)
+
+## .canEdit
+> Gets/Sets if the player can edit something?
+>
+> **Type:** Getter/Setter  
+> **Returns:** [bool](/CraftTweaker/Vanilla/Base-Types/bool.md)
