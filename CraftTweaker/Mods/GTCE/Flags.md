@@ -1,0 +1,44 @@
+# Flags
+> |                                         | FluidMaterial | DustMaterial  | IngotMaterial | GemMaterial   | RoughSolidMaterial    |
+> |-----------------------------------------|---------------|---------------|---------------|---------------|-----------------------|
+> | EXPLOSIVE                               | true          | true          | true          | true          | true                  |
+> | NO_UNIFICATION                          | true          | true          | true          | true          | true                  |
+> | NO_RECYCLING                            | true          | true          | true          | true          | true                  |
+> | BURNING                                 | true          | true          | true          | true          | true                  |
+> | DECOMPOSITION_REQUIRES_HYDROGEN         | true          | true          | true          | true          | true                  |
+> | GENERATE_PLASMA                         | true          | true          | true          | true          | true                  |
+> | STATE_GAS                               | true          | true          | true          | true          | true                  |
+> | GENERATE_ORE                            | false         | true          | true          | true          | true                  |
+> | GENERATE_PLATE                          | false         | true          | true          | true          | true                  |
+> | NO_WORKING                              | false         | true          | true          | true          | true                  |
+> | NO_SMASHING                             | false         | true          | true          | true          | true                  |
+> | NO_SMELTING                             | false         | true          | true          | true          | true                  |
+> | INDUCTION_SMELTING_LOW_OUTPUT           | false         | true          | true          | true          | true                  |
+> | SMELT_INTO_FLUID                        | false         | true          | true          | true          | true                  |
+> | EXCLUDE_BLOCK_CRAFTING_RECIPES          | false         | true          | true          | true          | true                  |
+> | EXCLUDE_PLATE_COMPRESSOR_RECIPE         | false         | true          | true          | true          | true                  |
+> | GENERATE_LONG_ROD                       | false         | false         | true          | true          | true                  |
+> | GENERATE_GEAR                           | false         | false         | true          | true          | true                  |
+> | GENERATE_LONG_ROD                       | false         | false         | true          | true          | true                  |
+> | MORTAR_GRINDABLE                        | false         | false         | true          | true          | true                  |
+> | GENERATE_FOIL                           | false         | false         | true          | false         | false                 |
+> | GENERATE_BOLT_SCREW                     | false         | false         | true          | false         | false                 |
+> | GENERATE_RING                           | false         | false         | true          | false         | false                 |
+> | GENERATE_SPRING                         | false         | false         | true          | false         | false                 |
+> | GENERATE_FINE_WIRE                      | false         | false         | true          | false         | false                 |
+> | GENERATE_ROTOR                          | false         | false         | true          | false         | false                 |
+> | GENERATE_SMALL_GEAR                     | false         | false         | true          | false         | false                 |
+> | GENERATE_DENSE                          | false         | false         | true          | false         | false                 |
+> | GENERATE_SPRING_SMALL                   | false         | false         | true          | false         | false                 |
+> | CRYSTALLISABLE                          | false         | false         | false         | true          | false                 |
+> | BLAST_FURNACE_CALCITE_DOUBLE            | false         | false         | true          | false         | false                 |
+> | BLAST_FURNACE_CALCITE_TRIPLE            | false         | false         | true          | false         | false                 |
+> | GENERATE_LENSE                          | false         | false         | false         | true          | false                 |
+> | HIGH_SIFTER_OUTPUT                      | false         | false         | false         | true          | false                 |
+> | DECOMPOSITION_BY_ELECTROLYZING          | true          | true          | true          | true          | true                  |
+> | DECOMPOSITION_BY_CENTRIFUGING           | true          | true          | true          | true          | true                  |
+> | FLAMMABLE                               | true          | true          | true          | true          | true                  |
+> | DISABLE_DECOMPOSITION                   | true          | true          | true          | true          | true                  |
+> | GENERATE_FLUID_BLOCK                    | true          | true          | true          | true          | true                  |
+> | GENERATE_FRAME                          | false         | false         | true          | true          | true                  |
+> | EXCLUDE_BLOCK_CRAFTING_BY_HAND_RECIPES  | false         | true          | true          | true          | true                  |
