@@ -1,6 +1,6 @@
 # Machines Information
 
-## Single Tile Blocks
+## GTCE Machines
 > Shows how many slots the machine has for that given machine. Also shows the properties that they can accept.
 > | Unlocalized Name           | Input Amount  | Output Amount | Fluid Input Amount    | Fluid Output Amount   | Property  |
 > |----------------------------|---------------|---------------|-----------------------|-----------------------|-----------|
