@@ -97,7 +97,7 @@
 > Is the the final method for the recipe builder.
 >
 > **Type:** Method  
-> **Example:**  
+> **Example:**
 > ```RecipeMap.getByName("compressor").recipeBuilder()
 >   .inputs(<minecraft:cobblestone> * 2)
 >   .outputs(<minecraft:stone>)
