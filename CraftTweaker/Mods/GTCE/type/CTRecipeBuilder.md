@@ -7,17 +7,17 @@
 > Is the duration of the recipe in ticks. (There are 20 ticks in a second)
 >
 > **Type:** Method
-> | Parameters  | types     | Uses                      |
-> |-------------|-----------|---------------------------|
-> | duration    | [int](/CraftTweaker/Vanilla/Base-Types/int.md)       | Time mother fucker        |
+> | Parameters  | types                                                |
+> |-------------|------------------------------------------------------|
+> | duration    | [int](/CraftTweaker/Vanilla/Base-Types/int.md)       |
 
 ## .EUt(EUt)
 > Is the amount of eu used per tick. It is suggested to not use a full packet(32/128/512/1024/ect).
 >
 > **Type:** Method
-> | Parameters  | types     | Uses                      |
-> |-------------|-----------|---------------------------|
-> | EUt         | [int](/CraftTweaker/Vanilla/Base-Types/int.md)       | energy mother fucker      |
+> | Parameters  | types                                                |
+> |-------------|------------------------------------------------------|
+> | EUt         | [int](/CraftTweaker/Vanilla/Base-Types/int.md)       |
 
 ## .hidden()
 >To hide the recipe from JEI.
@@ -28,70 +28,70 @@
 > Is the input items for the recipe.
 >
 > **Type:** Method
-> | Parameters  | types             | Uses                      |
-> |-------------|-------------------|---------------------------|
-> | ingredients | IIngredient...    | Item inputs mother fucker |
+> | Parameters  | types             |
+> |-------------|-------------------|
+> | ingredients | IIngredient...    |
 
 ## .notConsumable(ingredient)
 > Is an input item that is not consumed by the recipe.
 >
 > **Type:** Method
-> | Parameters  | types         | Uses                              |
-> |-------------|---------------|-----------------------------------|
-> | ingredient  | IIngredient   | Don't consume item mother fucker  |
+> | Parameters  | types         |
+> |-------------|---------------|
+> | ingredient  | IIngredient   |
 
 ## .outputs(ingredients)
 > Is the output items for the recipe.
 >
 > **Type:** Method
-> | Parameters  | types         | Uses                      |
-> |-------------|---------------|---------------------------|
-> | ingredients | [IItemStack](/CraftTweaker/Vanilla/Items/IItemStack.md)... | Time mother fucker        |
+> | Parameters  | types         |
+> |-------------|---------------|
+> | ingredients | [IItemStack](/CraftTweaker/Vanilla/Items/IItemStack.md)... |
 
 ## .chancedOutput(outputStack, chanceValue, tierChanceBoost)
 > Is an output item that has a chance of happening. The ints are a number between 0-10000. The formula used for calculating the chance is `chance + (boostPerTier * tier)`
 >
 > **Type:** Method
-> | Parameters      | types         | Uses                                  |
-> |-----------------|---------------|---------------------------------------|
-> | outputStack     | IItemStack    | Random item mother fucker             |
-> | chanceValue     | [int](/CraftTweaker/Vanilla/Base-Types/int.md)           | Initial chance mother fucker          |
-> | tierChanceBoost | [int](/CraftTweaker/Vanilla/Base-Types/int.md)           | Boosted chance by tier mother fucker  |
+> | Parameters      | types         |
+> |-----------------|---------------|
+> | outputStack     | IItemStack    |
+> | chanceValue     | [int](/CraftTweaker/Vanilla/Base-Types/int.md)           |
+> | tierChanceBoost | [int](/CraftTweaker/Vanilla/Base-Types/int.md)           |
 
 ## .fluidInput(ingredients)
 > Is a fluid input for the recipe.
 >
 > **Type:** Method
-> | Parameters  | types             | Uses                      |
-> |-------------|-------------------|---------------------------|
-> | ingredients | ILiquidStack...   | Fluid input mother fucker |
+> | Parameters  | types             |
+> |-------------|-------------------|
+> | ingredients | ILiquidStack...   |
 
 ## .fluidOutput(ingredients)
 > Is a fluid output for the recipe.
 >
 > **Type:** Method
-> | Parameters  | types             | Uses                          |
-> |-------------|-------------------|-------------------------------|
-> | ingredients | ILiquidStack...   | Fluid output mother fucker    |
+> | Parameters  | types             |
+> |-------------|-------------------|
+> | ingredients | ILiquidStack...   |
 
 ## .property(key, value)
 > Is a property for the recipe. It is used for the property's: `circuit`, `temperature`, and `explosives`. For the `explosives` property the value is halved.
 >
 > **Type:** Method
-> | Parameters  | types             | Uses                      |
-> |-------------|-------------------|---------------------------|
-> | key         | [string](/CraftTweaker/Vanilla/Base-Types/string.md)            | Property mother fucker    |
-> | value       | [int](/CraftTweaker/Vanilla/Base-Types/int.md)               | Number mother fucker      |
+> | Parameters  | types             |
+> |-------------|-------------------|
+> | key         | [string](/CraftTweaker/Vanilla/Base-Types/string.md)            |
+> | value       | [int](/CraftTweaker/Vanilla/Base-Types/int.md)               |
 >
 > * * *
 >
 > Is a property for the recipe. It is used for setting the explosive material for `explosives`.
 >
 > **Type:** Method
-> | Parameters  | types             | Uses                      |
-> |-------------|-------------------|---------------------------|
-> | key         | [string](/CraftTweaker/Vanilla/Base-Types/string.md)            | Property mother fucker    |
-> | value       | [IItemStack](/CraftTweaker/Vanilla/Items/IItemStack.md)        | Item mother fucker        |
+> | Parameters  | types             |
+> |-------------|-------------------|
+> | key         | [string](/CraftTweaker/Vanilla/Base-Types/string.md)           |
+> | value       | [IItemStack](/CraftTweaker/Vanilla/Items/IItemStack.md)        |
 
 ## .buildAndRegister()
 > Is the the final method for the recipe builder.
@@ -110,4 +110,3 @@
 >
 > **Type:** Method
 
-## I got bored mother fucker
