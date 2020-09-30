@@ -95,8 +95,9 @@
 
 ## .buildAndRegister()
 > Is the the final method for the recipe builder.
-> **Type:** Method
-> **Example:**
+>
+> **Type:** Method  
+> **Example:**  
 > ```RecipeMap.getByName("compressor").recipeBuilder()
 >   .inputs(<minecraft:cobblestone> * 2)
 >   .outputs(<minecraft:stone>)
@@ -108,5 +109,6 @@
 ## .toString()
 > Tells you information about the recipe. Even tells you if the recipe is valid. Can be helpful if having issues.
 >
-> **Type:** Method
+> **Type:** Method  
+> **Returns:** [string](/CraftTweaker/Vanilla/Base-Types/string.md)
 
