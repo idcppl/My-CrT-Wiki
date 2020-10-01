@@ -1,4 +1,5 @@
-# CTRecipeBuilder
+# RecipeBuilder
+RecipeBuilder is a builder, which allows chaining of methods till you get to a finishing method. It's allowed to chain since all the building methods return [RecipeBuilder](/CraftTweaker/Mods/GTCE/type/RecipeBuilder.md). The finishing methods in this builder are: [toString()](/CraftTweaker/Mods/GTCE/type/CTRecipeBuilder.md#tostring) and [buildAndRegister()](/CraftTweaker/Mods/GTCE/type/CTRecipeBuilder.md#buildandregister).
 
 ## import
 `import mods.gregtech.recipe.RecipeBuilder;`
@@ -28,33 +29,33 @@
 > Is the input items for the recipe.
 >
 > **Type:** Method
-> | Parameters  | types             |
-> |-------------|-------------------|
-> | ingredients | IIngredient...    |
+> | Parameters  | types                                                           |
+> |-------------|-----------------------------------------------------------------|
+> | ingredients | [IIngredient](/CraftTweaker/Vanilla/Items/IIngredient.md)...    |
 
 ## .notConsumable(ingredient)
 > Is an input item that is not consumed by the recipe.
 >
 > **Type:** Method
-> | Parameters  | types         |
-> |-------------|---------------|
-> | ingredient  | IIngredient   |
+> | Parameters  | types                                                       |
+> |-------------|-------------------------------------------------------------|
+> | ingredient  | [IIngredient](/CraftTweaker/Vanilla/Items/IIngredient.md)   |
 
 ## .outputs(ingredients)
 > Is the output items for the recipe.
 >
 > **Type:** Method
-> | Parameters  | types         |
-> |-------------|---------------|
+> | Parameters  | types                                                      |
+> |-------------|------------------------------------------------------------|
 > | ingredients | [IItemStack](/CraftTweaker/Vanilla/Items/IItemStack.md)... |
 
 ## .chancedOutput(outputStack, chanceValue, tierChanceBoost)
 > Is an output item that has a chance of happening. The ints are a number between 0-10000. The formula used for calculating the chance is `chance + (boostPerTier * tier)`
 >
 > **Type:** Method
-> | Parameters      | types         |
-> |-----------------|---------------|
-> | outputStack     | IItemStack    |
+> | Parameters      | types                                                    |
+> |-----------------|----------------------------------------------------------|
+> | outputStack     | [IItemStack](/CraftTweaker/Vanilla/Items/IItemStack.md)  |
 > | chanceValue     | [int](/CraftTweaker/Vanilla/Base-Types/int.md)           |
 > | tierChanceBoost | [int](/CraftTweaker/Vanilla/Base-Types/int.md)           |
 
@@ -62,25 +63,25 @@
 > Is a fluid input for the recipe.
 >
 > **Type:** Method
-> | Parameters  | types             |
-> |-------------|-------------------|
-> | ingredients | ILiquidStack...   |
+> | Parameters  | types                                                             |
+> |-------------|-------------------------------------------------------------------|
+> | ingredients | [ILiquidStack](CraftTweaker/Vanilla/Liquids/ILiquidStack.md)...   |
 
 ## .fluidOutput(ingredients)
 > Is a fluid output for the recipe.
 >
 > **Type:** Method
-> | Parameters  | types             |
-> |-------------|-------------------|
-> | ingredients | ILiquidStack...   |
+> | Parameters  | types                                                             |
+> |-------------|-------------------------------------------------------------------|
+> | ingredients | [ILiquidStack](CraftTweaker/Vanilla/Liquids/ILiquidStack.md)...   |
 
 ## .property(key, value)
 > Is a property for the recipe. It is used for the property's: `circuit`, `temperature`, and `explosives`. For the `explosives` property the value is halved.
 >
 > **Type:** Method
-> | Parameters  | types             |
-> |-------------|-------------------|
-> | key         | [string](/CraftTweaker/Vanilla/Base-Types/string.md)            |
+> | Parameters  | types                                                        |
+> |-------------|--------------------------------------------------------------|
+> | key         | [string](/CraftTweaker/Vanilla/Base-Types/string.md)         |
 > | value       | [int](/CraftTweaker/Vanilla/Base-Types/int.md)               |
 >
 > * * *
@@ -88,8 +89,8 @@
 > Is a property for the recipe. It is used for setting the explosive material for `explosives`.
 >
 > **Type:** Method
-> | Parameters  | types             |
-> |-------------|-------------------|
+> | Parameters  | types                                                          |
+> |-------------|----------------------------------------------------------------|
 > | key         | [string](/CraftTweaker/Vanilla/Base-Types/string.md)           |
 > | value       | [IItemStack](/CraftTweaker/Vanilla/Items/IItemStack.md)        |
 

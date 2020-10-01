@@ -11,10 +11,10 @@ RecipeMap's is a powerful tool that is used to store recipes for GTCE. You can a
 > Holds a machine `RecipeMap` by using the unlocalized machine name in the method.
 >
 > **Type:** Method  
-> **Returns:** [RecipeMap](/CraftTweaker/Mods/GTCE/type/RecipeMap.md)
-> | Parameters  		| types                                                     | Uses                      |
-> |---------------------|-----------------------------------------------------------|---------------------------|
-> | unlocalizedName	    | [RecipeMap](/CraftTweaker/Mods/GTCE/type/RecipeMap.md)    | For creating recipes		|
+> **Returns:** [RecipeMap](/CraftTweaker/Mods/GTCE/type/RecipeMap.md)  
+> | Parameters  		| types                                                     |
+> |---------------------|-----------------------------------------------------------|
+> | unlocalizedName	    | [RecipeMap](/CraftTweaker/Mods/GTCE/type/RecipeMap.md)    |
 
 # Methods to use on a RecipeMap
 These methods should be used after you've called one of the above methods.
@@ -23,18 +23,18 @@ These methods should be used after you've called one of the above methods.
 > Finds a recipe that fits the parameters.
 >
 > **Type:** Method  
-> **Returns:** [CTRecipe](/CraftTweaker/Mods/GTCE/type/CTRecipe.md)
-> | Parameters          | types         | Uses                                  |
-> |---------------------|---------------|---------------------------------------|
-> | maxVoltage          | [int](/CraftTweaker/Vanilla/Base-Types/int.md)           | a voltage above the recipe required.  |
-> | itemInputs          | IItemStack[]  | Nullable. Item inputs.                |
-> | fluidInputs         | ILiquidStack[]| Nullable. fluid inputs.               |
+> **Returns:** [Recipe](/CraftTweaker/Mods/GTCE/type/Recipe.md)  
+> | Parameters          | types                                                             |
+> |---------------------|-------------------------------------------------------------------|
+> | maxVoltage          | [int](/CraftTweaker/Vanilla/Base-Types/int.md)                    |
+> | itemInputs          | [IItemStack](/CraftTweaker/Vanilla/Items/IItemStack.md)[]         |
+> | fluidInputs         | [ILiquidStack](CraftTweaker/Vanilla/Liquids/ILiquidStack.md)[]    |
 
 ## .recipes
 > All the recipes for that [RecipeMap](/CraftTweaker/Mods/GTCE/type/RecipeMap.md).
 >
 > **Type:** Method  
-> **Returns:** [CTRecipe](/CraftTweaker/Mods/GTCE/type/CTRecipe.md)[]
+> **Returns:** [Recipe](/CraftTweaker/Mods/GTCE/type/Recipe.md)[]
 
 ## .localizedName
 > The localized name of the [RecipeMap](/CraftTweaker/Mods/GTCE/type/RecipeMap.md).
@@ -52,8 +52,8 @@ These methods should be used after you've called one of the above methods.
 > The method to begin building a recipe.
 >
 > **Type:** Method  
-> **Returns:** CTRecipeBuilder  
-> **Example:**
+> **Returns:** [RecipeBuilder](/CraftTweaker/Mods/GTCE/type/RecipeBuilder.md) 
+> **Example:**  
 > ```RecipeMap.getByName("compressor").recipeBuilder()
 >   .inputs(<minecraft:cobblestone> * 2)
 >   .outputs(<minecraft:stone>)

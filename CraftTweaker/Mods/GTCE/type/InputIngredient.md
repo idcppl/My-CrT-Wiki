@@ -13,13 +13,13 @@
 >
 >
 > **Type:** Getter  
-> **Returns:** [int](/CraftTweaker/Vanilla/Items/IItemStack.md)[]
+> **Returns:** [IItemStack](/CraftTweaker/Vanilla/Items/IItemStack.md)[]
 
 ## .matches(ingredient)
 >
 >
 > **Type:** Method  
 > **Returns:** [bool](/CraftTweaker/Vanilla/Base-Types/bool.md)
-> | Parameters              | Type                  | Uses                                      |
-> |-------------------------|-----------------------|-------------------------------------------|
-> | ingredient              | IItemStack            | See if the item is in the InputIngredient |
+> | Parameters              | Type                                                               |
+> |-------------------------|--------------------------------------------------------------------|
+> | ingredient              | [IItemStack](/CraftTweaker/Vanilla/Items/IItemStack.md)            |

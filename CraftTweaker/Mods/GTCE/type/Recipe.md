@@ -1,7 +1,7 @@
 # CTRecipe
 
 ## import
-`import mods.gregtech.recipe.Recipe`
+`import mods.gregtech.recipe.Recipe;`
 
 ## .inputs
 > Gets all the input items in the recipe. Non-consumables will be shown with the amount of 0.
@@ -25,7 +25,7 @@
 > Gets all the fluid inputs in the recipe.
 >
 > **Type:** Getter  
-> **Returns:** ILiquidStack[]
+> **Returns:** [ILiquidStack](CraftTweaker/Vanilla/Liquids/ILiquidStack.md)[]
 
 ## .hasInputFluid
 > Tells if the recipe holds an `ILiquidStack`.
@@ -37,7 +37,7 @@
 > Gets all the fluid outputs in the recipe.
 >
 > **Type:** Getter  
-> **Returns:** ILiquidStack[]
+> **Returns:** [ILiquidStack](CraftTweaker/Vanilla/Liquids/ILiquidStack.md)[]
 
 ## .duration
 > Gets the duration of the recipe in ticks.
@@ -68,9 +68,9 @@
 >
 > **Type:** Method  
 > **Returns:** Object
-> | Parameters  | Type      | Use                   |
-> |-------------|-----------|-----------------------|
-> | key         | [string](/CraftTweaker/Vanilla/Base-Types/string.md)    | name of the property  |
+> | Parameters  | Type                                                    |
+> |-------------|---------------------------------------------------------|
+> | key         | [string](/CraftTweaker/Vanilla/Base-Types/string.md)    |
 
 
 ## .remove()
