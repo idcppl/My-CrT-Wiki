@@ -1,4 +1,5 @@
-# CTRecipe
+# Recipe
+Recipe is a way to extract data from recipes.
 
 ## import
 `import mods.gregtech.recipe.Recipe;`
@@ -7,7 +8,7 @@
 > Gets all the input items in the recipe. Non-consumables will be shown with the amount of 0.
 >
 > **Type:** Getter  
-> **Returns:** [InputIngredient](/CraftTweaker/Mods/GTCE/type/InputIngredient.md)[]
+> **Returns:** [InputIngredient](/CraftTweaker/Mods/GTCE/Recipes/InputIngredient.md)[]
 
 ## .outputs
 > Gets all the output items that aren't random in the recipe.
@@ -19,7 +20,7 @@
 > Gets all the random output items in the recipe.
 >
 > **Type:** Getter  
-> **Returns:** [ChancedEntry](/CraftTweaker/Mods/GTCE/type/ChancedEntry.md)[]
+> **Returns:** [ChancedEntry](/CraftTweaker/Mods/GTCE/Recipes/ChancedEntry.md)[]
 
 ## .fluidInputs
 > Gets all the fluid inputs in the recipe.
@@ -28,7 +29,7 @@
 > **Returns:** [ILiquidStack](CraftTweaker/Vanilla/Liquids/ILiquidStack.md)[]
 
 ## .hasInputFluid
-> Tells if the recipe holds an `ILiquidStack`.
+> Tells if the recipe holds an [ILiquidStack](CraftTweaker/Vanilla/Liquids/ILiquidStack.md).
 >
 > **Type:** Method  
 > **Returns:** [bool](/CraftTweaker/Vanilla/Base-Types/bool.md)
@@ -74,7 +75,7 @@
 
 
 ## .remove()
-> Will remove the recipe from the `RecipeMap`.
+> Will remove the recipe from the [RecipeMap](/CraftTweaker/Mods/GTCE/Recipes/RecipeMap.md).
 >
 > **Type:** Method  
 > **Returns:** [bool](/CraftTweaker/Vanilla/Base-Types/bool.md)

@@ -1,5 +1,5 @@
 # RecipeBuilder
-RecipeBuilder is a builder, which allows chaining of methods till you get to a finishing method. It's allowed to chain since all the building methods return [RecipeBuilder](/CraftTweaker/Mods/GTCE/type/RecipeBuilder.md). The finishing methods in this builder are: [toString()](/CraftTweaker/Mods/GTCE/type/CTRecipeBuilder.md#tostring) and [buildAndRegister()](/CraftTweaker/Mods/GTCE/type/CTRecipeBuilder.md#buildandregister).
+RecipeBuilder is a builder, which allows chaining of methods till you get to a finishing method. It's allowed to chain since all the building methods return [RecipeBuilder](/CraftTweaker/Mods/GTCE/Recipes/RecipeBuilder.md). The finishing methods in this builder are: [toString()](/CraftTweaker/Mods/GTCE/Recipes/RecipeBuilder.md#tostring) and [buildAndRegister()](/CraftTweaker/Mods/GTCE/Recipes/RecipeBuilder.md#buildandregister).
 
 ## import
 `import mods.gregtech.recipe.RecipeBuilder;`

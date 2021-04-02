@@ -1,4 +1,5 @@
 # InputIngredient
+InputIngredient is a over the top way of getting the input items of a recipe.
 
 ## import
 `import mods.gregtech.recipe.InputIngredient;`

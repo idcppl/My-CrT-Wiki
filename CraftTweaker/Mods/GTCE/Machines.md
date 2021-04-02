@@ -51,28 +51,37 @@
 > | unpacker                   |2              |1-2            |0                      |0                      | none      |
 
 ## Gregicality Machines
-> | Unlocalized Name           | Input Amount  | Output Amount | Fluid Input Amount    | Fluid Output Amount   | Property  |
-> |----------------------------|---------------|---------------|-----------------------|-----------------------|-----------|
-> | cluster_mill               | 1             | 1             | 0                     | 0                     | none      |
-> | assembly_line              | 4-16          | 1             | 0-4                   | 0                     | none      |
-> | mass_fab                   | 0-1           | 0             | 0-1                   | 1-2                   | none      |
-> | replicator                 | 0-1           | 0-1           | 1-2                   | 0-1                   | none      |
-> | cracker_unit               | 0             | 0             | 2                     | 1                     | none      |
-> | processing_array           | 0-9           | 0-6           | 0-3                   | 0-2                   | none      |
-> | circuit_assembler          | 1-6           | 1             | 0-1                   | 0                     | circuit   |
-> | electric_sieve             | 2             | 1-54          | 0                     | 0                     | none      |
-> | attractor                  | 0-1           | 1-6           | 1                     | 0                     | none      |
-> | large_chemical_reactor     | 0-2           | 0-2           | 0-5                   | 0-3                   | none      |
-> | chemical_dehydrator        | 0-2           | 0-9           | 0-2                   | 0-2                   | none      |
-> | chemical_plant             | 0-4           | 0             | 0-4                   | 0-2                   | none      |
-> | large_mixer                | 0-9           | 0-1           | 0-4                   | 0-1                   | none      |
-> | blast_alloy                | 0-9           | 0             | 0-2                   | 1                     | none      |
-> | simple_ore_washer          | 1             | 1             | 0-1                   | 0                     | none      |
-> | nuclear_reactor            | 2-3           | 1-2           | 0                     | 0                     |temperature|
-> | decay_chamber              | 1             | 1             | 0                     | 0                     | none      |
-> | nuclear_breeder            | 2-3           | 1-4           | 0                     | 0                     |temperature|
-> | green_house                | 1-2           | 1-2           | 1                     | 0                     | none      |
-> | large_centrifuge           | 0-1           | 0-6           | 0-2                   | 0-6                   | none      |
+> | Unlocalized Name            | Input Amount  | Output Amount | Fluid Input Amount    | Fluid Output Amount   | Property  |
+> |-----------------------------|---------------|---------------|-----------------------|-----------------------|-----------|
+> | cluster_mill                | 1             | 1             | 0                     | 0                     | none      |
+> | assembly_line               | 4-16          | 1             | 0-4                   | 0                     | none      |
+> | mass_fab                    | 0-1           | 0             | 0-1                   | 1-2                   | none      |
+> | replicator                  | 0-1           | 0-1           | 1-2                   | 0-1                   | none      |
+> | cracker_unit                | 0             | 0             | 2                     | 1                     | none      |
+> | processing_array            | 0-9           | 0-6           | 0-3                   | 0-2                   | none      |
+> | circuit_assembler           | 1-6           | 1             | 0-1                   | 0                     | circuit   |
+> | electric_sieve              | 2             | 1-54          | 0                     | 0                     | none      |
+> | attractor                   | 0-1           | 1-6           | 1                     | 0                     | none      |
+> | large_chemical_reactor      | 0-3           | 0-3           | 0-5                   | 0-4                   | none      |
+> | chemical_dehydrator         | 0-2           | 0-9           | 0-2                   | 0-2                   | none      |
+> | chemical_plant              | 0-4           | 0-2           | 0-5                   | 0-4                   | none      |
+> | large_mixer                 | 0-9           | 0-1           | 0-6                   | 0-1                   | none      |
+> | blast_alloy                 | 0-9           | 0             | 0-2                   | 1                     | none      |
+> | simple_ore_washer           | 1             | 1             | 0-1                   | 0                     | none      |
+> | nuclear_reactor             | 2-3           | 1-2           | 0                     | 0                     |temperature|
+> | decay_chamber               | 0-1           | 0-1           | 0-1                   | 0-1                   | none      |
+> | nuclear_breeder             | 2-3           | 1-4           | 0                     | 0                     |temperature|
+> | green_house                 | 2-3           | 1-2           | 1                     | 0                     | none      |
+> | large_centrifuge            | 0-1           | 0-6           | 0-2                   | 0-6                   | none      |
+> | bio_reactor                 | 0-3           | 0-3           | 0-5                   | 0-2                   | none      |
+> | stellar_forge               | 0-3           | 0-2           | 0-3                   | 0-2                   | none      |
+> | plasma_condenser            | 1-2           | 1-2           | 1-2                   | 1-2                   | none      |
+> | simple_qubit_generator      | 1             | 0             | 0                     | 0                     | qubit     |
+> | gas_centrifuge              | 1             | 0             | 1                     | 1-3                   | circuit   |
+> | large_engraver              | 2             | 1             | 0                     | 0                     | none      |
+> | adv_fusion                  | 0             | 0             | 2-3                   | 1-2                   | coilTier eu_to_start euReturn |
+> | disassembler                | 1             | 0-9           | 0                     | 0                     | none      |
+> | electric_implosion          | 1-2           | 1-2           | 0                     | 0                     | none      |
 - first 6 are also the same for Shadow of Greg
 
 ## Multiblocks Least Amount Needed
